@@ -12,6 +12,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public ResourceType ResourceType { get; set; }
 
 		[XmlElement(ElementName = "amount")]
-		public Amount Amount2 { get; set; }
+		public ValueAmount ValueAmount { get; set; }
 	}
 }

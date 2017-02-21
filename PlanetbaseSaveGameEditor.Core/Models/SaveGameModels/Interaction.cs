@@ -5,17 +5,18 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	[XmlRoot(ElementName = "interaction")]
 	public class Interaction
 	{
+		[XmlAttribute(AttributeName = "type")]
+		public string Type { get; set; }
+
+
 		[XmlElement(ElementName = "character")]
-		public Character Character { get; set; }
+		public InteractionCharacter InteractionCharacter { get; set; }
 
 		[XmlElement(ElementName = "selectable")]
 		public Selectable Selectable { get; set; }
 
 		[XmlElement(ElementName = "interaction-point")]
 		public InteractionPoint InteractionPoint { get; set; }
-
-		[XmlAttribute(AttributeName = "type")]
-		public string Type { get; set; }
 
 		[XmlElement(ElementName = "stage")]
 		public Stage Stage { get; set; }

@@ -6,6 +6,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class BuildProgress
 	{
 		[XmlAttribute(AttributeName = "value")]
-		public int Value { get; set; }
+		public double Value { get; set; }
 	}
 }

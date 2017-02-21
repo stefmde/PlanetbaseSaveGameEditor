@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
@@ -6,6 +7,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Ships
 	{
 		[XmlElement(ElementName = "ship")]
-		public Ship Ship { get; set; }
+		public List<Ship> ShipsList { get; set; }
 	}
 }

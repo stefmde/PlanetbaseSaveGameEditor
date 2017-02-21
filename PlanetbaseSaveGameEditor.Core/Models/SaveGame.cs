@@ -81,5 +81,33 @@ namespace PlanetbaseSaveGameEditor.Core.Models
 
 		[XmlElement(ElementName = "screenshot")]
 		public string Screenshot { get; set; }
+
+		//private string _screenshot = string.Empty;
+		//[XmlElement(ElementName = "screenshot")]
+		//public string Screenshot
+		//{
+		//	get
+		//	{
+		//		if (_screenshot.StartsWith("<![CDATA[", StringComparison.OrdinalIgnoreCase) && _screenshot.EndsWith("]]>", StringComparison.OrdinalIgnoreCase))
+		//		{
+		//			return _screenshot;
+		//		}
+		//		else
+		//		{
+		//			return "<![CDATA[" + _screenshot + "]]>";
+		//		}
+		//	}
+		//	set
+		//	{
+		//		if (value.StartsWith("<![CDATA[", StringComparison.OrdinalIgnoreCase) && value.EndsWith("]]>", StringComparison.OrdinalIgnoreCase))
+		//		{
+		//			_screenshot = value.Replace("<![CDATA[", "").Replace("]]>", "");
+		//		}
+		//		else
+		//		{
+		//			_screenshot = value;
+		//		}
+		//	}
+		//}
 	}
 }

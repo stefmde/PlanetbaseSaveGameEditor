@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\SaveGameModels\Interaction.cs" />
+    <Compile Include="Models\SaveGameModels\InteractionCharacter.cs" />
     <Compile Include="Models\SaveGameModels\InteractionPoint.cs" />
     <Compile Include="Models\SaveGameModels\Interactions.cs" />
     <Compile Include="Models\SaveGameModels\Amount.cs" />
@@ -177,6 +178,7 @@
     <Compile Include="Models\SaveGameModels\TimeToNextSolarflare.cs" />
     <Compile Include="Models\SaveGameModels\TraderId.cs" />
     <Compile Include="Models\SaveGameModels\TypeName.cs" />
+    <Compile Include="Models\SaveGameModels\ValueAmount.cs" />
     <Compile Include="Models\SaveGameModels\Velocity.cs" />
     <Compile Include="Models\SaveGameModels\VisitorCount.cs" />
     <Compile Include="Models\SaveGameModels\VisitorEvent.cs" />

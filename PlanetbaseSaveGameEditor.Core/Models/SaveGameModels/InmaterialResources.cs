@@ -7,5 +7,8 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	{
 		[XmlElement(ElementName = "container-name")]
 		public ContainerName Containername { get; set; }
+
+		[XmlElement(ElementName = "amount")]
+		public Amount Amount { get; set; }
 	}
 }

@@ -19,6 +19,8 @@ namespace PlanetbaseSaveGameEditor.TestConsole
 
 			SaveGame saveGame = SaveGameManager.DeSerializeFromXml(fileContent);
 
+			string saveGameXml = SaveGameManager.SerializeToXml(saveGame);
+
 
 			Console.ReadLine();
 		}
