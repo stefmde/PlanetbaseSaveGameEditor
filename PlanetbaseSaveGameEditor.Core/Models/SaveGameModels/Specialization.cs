@@ -6,6 +6,20 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Specialization
 	{
 		[XmlAttribute(AttributeName = "value")]
-		public string Value { get; set; }
+		public SpecializationType Value { get; set; }
+	}
+
+	public enum SpecializationType
+	{
+		Unknown,
+		Medic,
+		Guard,
+		Worker,
+		Engineer,
+		Biologist,
+		Constructor,
+		Driller,
+		Carrier,
+		Visitor
 	}
 }

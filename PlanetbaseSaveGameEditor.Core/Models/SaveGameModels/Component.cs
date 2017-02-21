@@ -50,6 +50,12 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 
 		[XmlElement(ElementName = "construction-materials")]
 		public ConstructionMaterials ConstructionMaterials { get; set; }
+
+		[XmlElement(ElementName = "size-index")]
+		public SizeIndex SizeIndex { get; set; }
+
+		[XmlElement(ElementName = "module-type")]
+		public ModuleType ModuleType { get; set; }
 	}
 
 }

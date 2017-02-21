@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\SaveGameModels\AgressionTime.cs" />
     <Compile Include="Models\SaveGameModels\Interaction.cs" />
     <Compile Include="Models\SaveGameModels\InteractionCharacter.cs" />
     <Compile Include="Models\SaveGameModels\InteractionPoint.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="Models\SaveGameModels\Intruders.cs" />
     <Compile Include="Models\SaveGameModels\LaserCharge.cs" />
     <Compile Include="Models\SaveGameModels\Links.cs" />
+    <Compile Include="Models\SaveGameModels\LoadedResource.cs" />
     <Compile Include="Models\SaveGameModels\Locked.cs" />
     <Compile Include="Models\SaveGameModels\MaxHeight.cs" />
     <Compile Include="Models\SaveGameModels\MeteorManager.cs" />
@@ -123,6 +125,7 @@
     <Compile Include="Models\SaveGameModels\Nutrition.cs" />
     <Compile Include="Models\SaveGameModels\Orientation.cs" />
     <Compile Include="Models\SaveGameModels\OriginalRotation.cs" />
+    <Compile Include="Models\SaveGameModels\OwnedShipId.cs" />
     <Compile Include="Models\SaveGameModels\Oxygen.cs" />
     <Compile Include="Models\SaveGameModels\PendingConstructionCosts.cs" />
     <Compile Include="Models\SaveGameModels\PendingVisitors.cs" />

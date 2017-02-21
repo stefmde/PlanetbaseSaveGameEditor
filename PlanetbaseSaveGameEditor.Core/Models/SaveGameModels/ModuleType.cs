@@ -6,6 +6,40 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class ModuleType
 	{
 		[XmlAttribute(AttributeName = "value")]
-		public string Value { get; set; }
+		public ModuleTypeType Value { get; set; }
+	}
+
+	public enum ModuleTypeType
+	{
+		Unknown,
+		ModuleTypeDorm,
+		ModuleTypeLab,
+		ModuleTypeOxygenGenerator,
+		ModuleTypeAirlock,
+		ModuleTypeSolarPanel,
+		ModuleTypeWindTurbine,
+		ModuleTypePowerCollector,
+		ModuleTypeWaterExtractor,
+		ModuleTypeWaterTank,
+		ModuleTypeBioDome,
+		ModuleTypeCanteen,
+		ModuleTypeMine,
+		ModuleTypeLandingPad,
+		ModuleTypeSickBay,
+		ModuleTypeProcessingPlant,
+		ModuleTypeStorage,
+		ModuleTypeControlCenter,
+		ModuleTypeFactory,
+		ModuleTypeBar,
+		ModuleTypeRoboticsFacility,
+		ModuleTypeCabin,
+		ModuleTypeMultiDome,
+		ModuleTypeRadioAntenna,
+		ModuleTypeTelescope,
+		ModuleTypePyramid,
+		ModuleTypeStarport,
+		ModuleTypeSignpost,
+		ModuleTypeAntiMeteorLaser,
+		ModuleTypeMonolith
 	}
 }

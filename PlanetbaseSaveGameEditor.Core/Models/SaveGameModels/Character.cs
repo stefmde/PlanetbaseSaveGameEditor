@@ -6,7 +6,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Character
 	{
 		[XmlAttribute(AttributeName = "type")]
-		public string Type { get; set; }
+		public CharacterType CharacterType { get; set; }
 
 
 		[XmlElement(ElementName = "position")]
@@ -83,5 +83,29 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 
 		[XmlElement(ElementName = "integrity-decay-rate")]
 		public IntegrityDecayRate IntegrityDecayRate { get; set; }
+
+		[XmlElement(ElementName = "fee")]
+		public Fee Fee { get; set; }
+
+		[XmlElement(ElementName = "prestige")]
+		public Prestige Prestige { get; set; }
+
+		[XmlElement(ElementName = "agression-time")]
+		public AgressionTime AgressionTime { get; set; }
+
+		[XmlElement(ElementName = "owned-ship-id")]
+		public OwnedShipId OwnedShipId { get; set; }
+
+		[XmlElement(ElementName = "loaded-resource")]
+		public LoadedResource LoadedResource { get; set; }
+	}
+
+	public enum CharacterType
+	{
+		Unknown,
+		Colonist,
+		Guest,
+		Bot,
+		Intruder
 	}
 }
