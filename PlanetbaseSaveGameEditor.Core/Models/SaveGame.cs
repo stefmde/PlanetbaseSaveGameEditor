@@ -1,10 +1,10 @@
 ﻿using System.Xml.Serialization;
-using PlanetbaseSaveGameEditor.Core.Models.SaveGame;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels;
 
 namespace PlanetbaseSaveGameEditor.Core.Models
 {
 	[XmlRoot(ElementName = "save-game")]
-	public class Savegame
+	public class SaveGame
 	{
 		[XmlAttribute(AttributeName = "version")]
 		public int Version { get; set; }
