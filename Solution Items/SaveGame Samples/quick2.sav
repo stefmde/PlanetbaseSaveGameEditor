@@ -1,0 +1,2223 @@
+<save-game version="10">
+  <id-generator>
+    <next-id value="443" />
+    <next-bot-id value="2" />
+  </id-generator>
+  <planet>
+    <planet-index value="0" />
+  </planet>
+  <milestones>
+    <milestone value="MilestoneSurvival" />
+    <milestone value="MilestoneSelfSufficiency" />
+  </milestones>
+  <techs />
+  <environment>
+    <time-of-day value="0.47088" />
+    <wind-indicator value="0.4645396" />
+  </environment>
+  <terrain>
+    <seed value="-171000" />
+  </terrain>
+  <camera>
+    <height value="30" />
+    <position x="1002.553" y="30" z="1060.068" />
+    <orientation x="25" y="180.0008" z="-2.874863E-11" />
+  </camera>
+  <sandstorm>
+    <sandstorm-in-progress value="False" />
+    <time-to-next-sandstorm value="2534.847" />
+    <time value="174.6205" />
+    <sandstorm-time value="174.6167" />
+  </sandstorm>
+  <blizzard>
+    <blizzard-in-progress value="False" />
+    <time-to-next-blizzard value="3504.748" />
+    <time value="0" />
+    <blizzard-time value="0" />
+  </blizzard>
+  <solar-flare>
+    <solar-flare-in-progress value="False" />
+    <time-to-next-solar-flare value="6449.344" />
+    <time value="0" />
+    <solar-flare-time value="0" />
+  </solar-flare>
+  <colony>
+    <extra-prestige value="0" />
+    <game-time value="6765.73984877393" />
+    <real-game-time value="3214.6399281472" />
+    <name value="Basis D60" />
+    <latitude value="0" />
+    <longitude value="-171" />
+    <name value="Basis D60" />
+  </colony>
+  <ship-manager type="ship-manager">
+    <time-since-last-colonist-landing value="211.5197" />
+    <time-since-last-visitor-landing value="0" />
+    <time-since-last-merchant-landing value="479.9005" />
+    <time-to-next-intruder value="4200" />
+    <landing-permissions>
+      <colonists-allowed value="True" />
+      <merchants-allowed value="True" />
+      <visitors-allowed value="True" />
+      <Worker-percentage value="40" />
+      <Biologist-percentage value="30" />
+      <Engineer-percentage value="20" />
+      <Medic-percentage value="10" />
+      <Guard-percentage value="0" />
+    </landing-permissions>
+  </ship-manager>
+  <stats>
+    <counter type="Vegetables">
+      <type-name value="Vegetables" />
+      <counts value="5 8 10 6 6 11 10 13 16 17 14 14 22 21 18 18 23 21 17 23 23 25 28 28 29 29 27 29 29 29 23 26 26 28 27 22 24 24 18 17 17 17 " />
+    </counter>
+    <counter type="Vitromeat">
+      <type-name value="Vitromeat" />
+      <counts value="" />
+    </counter>
+    <counter type="Meal">
+      <type-name value="Meal" />
+      <counts value="27 26 21 21 21 21 19 15 15 19 18 17 17 16 16 16 16 16 16 17 16 15 15 17 20 19 18 16 17 17 17 17 16 16 15 16 17 16 16 15 14 14 13 13 14 13 12 12 " />
+    </counter>
+    <counter type="AlcoholicDrink">
+      <type-name value="AlcoholicDrink" />
+      <counts value="" />
+    </counter>
+    <counter type="Ore">
+      <type-name value="Ore" />
+      <counts value="1 2 2 2 2 2 2 2 3 2 2 2 3 3 3 4 4 4 4 4 4 4 4 4 4 3 2 2 2 3 2 1 1 1 2 2 2 1 1 1 1 2 2 " />
+    </counter>
+    <counter type="Metal">
+      <type-name value="Metal" />
+      <counts value="13 8 7 6 6 2 1 1 1 1 1 1 1 2 2 2 2 3 3 3 3 4 3 3 4 3 3 3 1 2 3 3 3 3 4 6 1 1 1 1 1 1 2 1 2 1 1 1 " />
+    </counter>
+    <counter type="Starch">
+      <type-name value="Starch" />
+      <counts value="1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 " />
+    </counter>
+    <counter type="Bioplastic">
+      <type-name value="Bioplastic" />
+      <counts value="26 26 26 22 22 22 21 21 20 19 20 20 20 20 20 20 21 21 21 22 22 22 21 20 21 21 21 21 21 21 21 21 21 21 21 21 17 17 17 17 17 18 17 16 16 16 17 17 " />
+    </counter>
+    <counter type="MedicinalPlants">
+      <type-name value="MedicinalPlants" />
+      <counts value="1 " />
+    </counter>
+    <counter type="MedicalSupplies">
+      <type-name value="MedicalSupplies" />
+      <counts value="10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 9 9 8 8 8 8 7 7 7 6 6 6 6 6 6 6 6 6 6 " />
+    </counter>
+    <counter type="Spares">
+      <type-name value="Spares" />
+      <counts value="10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 9 8 8 7 7 6 6 6 6 6 5 5 5 5 5 4 4 3 2 1 1 1 " />
+    </counter>
+    <counter type="Semiconductors">
+      <type-name value="Semiconductors" />
+      <counts value="" />
+    </counter>
+    <counter type="Gun">
+      <type-name value="Gun" />
+      <counts value="" />
+    </counter>
+    <counter type="Coins">
+      <type-name value="Coins" />
+      <counts value="" />
+    </counter>
+    <counter type="Worker">
+      <type-name value="Worker" />
+      <counts value="3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 " />
+    </counter>
+    <counter type="Biologist">
+      <type-name value="Biologist" />
+      <counts value="2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 " />
+    </counter>
+    <counter type="Engineer">
+      <type-name value="Engineer" />
+      <counts value="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 " />
+    </counter>
+    <counter type="Medic">
+      <type-name value="Medic" />
+      <counts value="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 " />
+    </counter>
+    <counter type="Guard">
+      <type-name value="Guard" />
+      <counts value="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 " />
+    </counter>
+    <counter type="Visitor">
+      <type-name value="Visitor" />
+      <counts value="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 " />
+    </counter>
+    <counter type="Intruder">
+      <type-name value="Intruder" />
+      <counts value="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 " />
+    </counter>
+    <counter type="Carrier">
+      <type-name value="Carrier" />
+      <counts value="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 " />
+    </counter>
+    <counter type="Constructor">
+      <type-name value="Constructor" />
+      <counts value="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 " />
+    </counter>
+    <counter type="Driller">
+      <type-name value="Driller" />
+      <counts value="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 " />
+    </counter>
+    <counter type="Colonist">
+      <type-name value="Colonist" />
+      <counts value="7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 " />
+    </counter>
+    <counter type="Bot">
+      <type-name value="Bot" />
+      <counts value="2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 " />
+    </counter>
+    <counter type="Guest">
+      <type-name value="Guest" />
+      <counts value="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 " />
+    </counter>
+    <counter type="PowerBalance">
+      <type-name value="PowerBalance" />
+      <counts value="28 -16 -4 127 136 155 23 21 14 109 87 128 -4 47 9 94 157 153 18 44 14 135 136 135 12 43 -17 139 98 106 42 23 20 128 82 122 21 6 -10 142 81 130 18 36 36 90 105 77 " />
+    </counter>
+    <counter type="WaterBalance">
+      <type-name value="WaterBalance" />
+      <counts value="1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 0 1 1 0 5 7 8 5 3 4 7 8 6 4 4 6 8 7 4 4 6 8 7 5 " />
+    </counter>
+    <counter type="OxygenBalance">
+      <type-name value="OxygenBalance" />
+      <counts value="33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 " />
+    </counter>
+    <counter type="PowerStorage">
+      <type-name value="PowerStorage" />
+      <counts value="12500 10809 7801 8419 21190 25000 25000 25000 25000 25000 25000 25000 24801 25000 24842 12500 24393 25000 24848 24630 24574 25000 25000 25000 25000 25000 22398 25000 25000 25000 25000 25000 24631 25000 25000 25000 25000 24897 23978 24964 25000 25000 25000 25000 25000 25000 25000 25000 " />
+    </counter>
+    <counter type="WaterStorage">
+      <type-name value="WaterStorage" />
+      <counts value="0 0 0 0 0 40 102 31 3 120 321 426 378 314 393 590 600 570 493 532 600 600 587 505 502 600 600 598 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 " />
+    </counter>
+  </stats>
+  <visitor-events>
+    <next-event-time value="-5869.191" />
+    <visitor-event type="VisitorEventSpatialAccidentVictims">
+      <visitor-count value="5" />
+    </visitor-event>
+  </visitor-events>
+  <game-hints>
+    <shown-hints value="connection40 connection70 power_grid120 oxygen_flow180 colony_ship240 resources1800 security_controls0 manufacture_limits0 " />
+  </game-hints>
+  <meteor-manager>
+    <seeds value="935086075 877300709 680441948 1069668610 1786489727 1082849058 523137782 168123139 816691572 1942649005 559833588 11459436 1762916873 992386671 244840266 939186544 1563212727 345340655 909280877 1408374287 1248059727 431681163 522862435 1937593312 1738927215 908532898 727101767 1957570193 2118732641 803087709" />
+  </meteor-manager>
+  <manufacture-limits>
+    <bot-limit value="2147483647" />
+    <MedicalSupplies-limit value="2147483647" />
+    <Spares-limit value="2147483647" />
+    <Semiconductors-limit value="2147483647" />
+    <Gun-limit value="2147483647" />
+  </manufacture-limits>
+  <constructions>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9985679" />
+      <id value="150" />
+      <position x="1061.666" y="0" z="1024.167" />
+      <orientation x="0" y="252.5862" z="0" />
+      <enabled value="True" />
+      <time-built value="6677.75985074043" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeOxygenGenerator" />
+      <size-index value="0" />
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9992586" />
+      <id value="151" />
+      <position x="1053.914" y="0" z="1009.285" />
+      <orientation x="0" y="27.51612" z="0" />
+      <enabled value="True" />
+      <time-built value="6655.99985122681" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeAirlock" />
+      <size-index value="0" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9994366" />
+      <id value="152" />
+      <position x="1057.79" y="0" z="1016.726" />
+      <orientation x="0" y="207.5164" z="0" />
+      <enabled value="True" />
+      <time-built value="6638.07985162735" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="150" />
+        <id value="151" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="0.8890671" />
+      <oxygen value="-1" />
+      <id value="153" />
+      <position x="1039.38" y="0" z="1020.259" />
+      <orientation x="0" y="222.8678" z="0" />
+      <enabled value="True" />
+      <time-built value="6618.8798520565" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeSolarPanel" />
+      <size-index value="1" />
+      <mobile-rotation x="-2.366025E-06" y="19.14041" z="-8.211788E-07" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="154" />
+      <position x="1047.201" y="0" z="1014.354" />
+      <orientation x="0" y="307.0536" z="0" />
+      <enabled value="True" />
+      <time-built value="6612.47985219955" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="151" />
+        <id value="153" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="155" />
+      <position x="1030.589" y="0" z="1001.082" />
+      <orientation x="0" y="148.4758" z="0" />
+      <enabled value="True" />
+      <time-built value="6575.35985302925" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypePowerCollector" />
+      <size-index value="2" />
+      <power-storage value="1.25E+07" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="156" />
+      <position x="1035.276" y="0" z="1011.306" />
+      <orientation x="0" y="204.6285" z="0" />
+      <enabled value="True" />
+      <time-built value="6557.43985342979" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="153" />
+        <id value="155" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="157" />
+      <position x="1046.108" y="0" z="989.8453" />
+      <orientation x="0" y="36.72935" z="0" />
+      <enabled value="True" />
+      <time-built value="6590.71985268593" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeWaterExtractor" />
+      <size-index value="0" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="158" />
+      <position x="1050.011" y="0" z="999.5652" />
+      <orientation x="0" y="201.8766" z="0" />
+      <enabled value="True" />
+      <time-built value="6581.7598528862" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="151" />
+        <id value="157" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="0.8355432" />
+      <oxygen value="-1" />
+      <id value="159" />
+      <position x="1017.105" y="0" z="1014.615" />
+      <orientation x="0" y="74.57726" z="0" />
+      <enabled value="True" />
+      <time-built value="6481.9198551178" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeWindTurbine" />
+      <size-index value="0" />
+      <mobile-rotation x="0" y="357.7084" z="0" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="160" />
+      <position x="1022.889" y="0" z="1008.81" />
+      <orientation x="0" y="315.104" z="0" />
+      <enabled value="True" />
+      <time-built value="6472.95985531807" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="155" />
+        <id value="159" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9930524" />
+      <id value="161" />
+      <position x="1047.141" y="0" z="1037.85" />
+      <orientation x="0" y="133.2897" z="0" />
+      <enabled value="True" />
+      <time-built value="6370.55985760689" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <components>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="189" />
+          <component-type value="Bunk" />
+          <position x="1047.887" y="0.2" z="1034.221" />
+          <orientation x="0" y="215.0849" z="0" />
+          <condition value="-1" />
+          <production-progress value="-1" />
+          <time value="6287.189" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="190" />
+          <component-type value="Bunk" />
+          <position x="1044.597" y="0.2" z="1035.156" />
+          <orientation x="0" y="270.0685" z="0" />
+          <condition value="-1" />
+          <production-progress value="-1" />
+          <time value="6264.038" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+        </component>
+      </components>
+      <module-type value="ModuleTypeDorm" />
+      <size-index value="1" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9970518" />
+      <id value="162" />
+      <position x="1054.909" y="0" z="1030.533" />
+      <orientation x="0" y="313.2894" z="0" />
+      <enabled value="True" />
+      <time-built value="6359.03985786438" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="150" />
+        <id value="161" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9938347" />
+      <id value="191" />
+      <position x="1083.107" y="0" z="1026.731" />
+      <orientation x="0" y="296.2054" z="0" />
+      <enabled value="True" />
+      <time-built value="6170.87986207008" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <components>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="197" />
+          <component-type value="Table" />
+          <position x="1083.975" y="0.2" z="1024.179" />
+          <orientation x="0" y="0.528398" z="0" />
+          <condition value="-1" />
+          <production-progress value="-1" />
+          <time value="6068.263" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="199" />
+          <component-type value="MealMaker" />
+          <position x="1082.402" y="0.2" z="1028.803" />
+          <orientation x="0" y="180" z="0" />
+          <condition value="-1" />
+          <production-progress value="0.016" />
+          <time value="6084.274" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="6" />
+            <resource type="Meal">
+              <id value="432" />
+              <trader-id value="-1" />
+              <position x="1082.402" y="0.2" z="1028.803" />
+              <orientation x="0" y="0" z="0" />
+              <state value="0" />
+              <location value="0" />
+              <subtype value="11" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+            <resource type="Vegetables">
+              <id value="380" />
+              <trader-id value="-1" />
+              <position x="1082.402" y="0.2" z="1028.803" />
+              <orientation x="-2.504478E-06" y="296.2055" z="3.370198E-07" />
+              <state value="3" />
+              <location value="0" />
+              <subtype value="8" />
+              <condition value="0.5648047" />
+              <durability value="0" />
+            </resource>
+            <resource type="Meal">
+              <id value="433" />
+              <trader-id value="-1" />
+              <position x="1082.402" y="0.2" z="1028.803" />
+              <orientation x="0" y="0" z="0" />
+              <state value="0" />
+              <location value="0" />
+              <subtype value="11" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+            <resource type="Vegetables">
+              <id value="434" />
+              <trader-id value="-1" />
+              <position x="1082.402" y="0.2" z="1028.803" />
+              <orientation x="345.5195" y="297.1127" z="0.7146453" />
+              <state value="3" />
+              <location value="0" />
+              <subtype value="6" />
+              <condition value="0.9473776" />
+              <durability value="0" />
+            </resource>
+            <resource type="Meal">
+              <id value="442" />
+              <trader-id value="-1" />
+              <position x="1082.402" y="0.2" z="1028.803" />
+              <orientation x="0" y="0" z="0" />
+              <state value="0" />
+              <location value="0" />
+              <subtype value="11" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+            <resource type="Vegetables">
+              <id value="435" />
+              <trader-id value="-1" />
+              <position x="1082.402" y="0.2" z="1028.803" />
+              <orientation x="-2.504478E-06" y="296.2055" z="3.370198E-07" />
+              <state value="3" />
+              <location value="0" />
+              <subtype value="6" />
+              <condition value="0.937422" />
+              <durability value="0" />
+            </resource>
+          </resource-container>
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="200" />
+          <component-type value="DrinkingFountain" />
+          <position x="1080.749" y="0.2" z="1029.159" />
+          <orientation x="0" y="0.528398" z="0" />
+          <condition value="-1" />
+          <production-progress value="-1" />
+          <time value="5949.67" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="323" />
+          <component-type value="VideoScreen" />
+          <position x="1078.783" y="0.2" z="1028.697" />
+          <orientation x="0" y="178.2404" z="0" />
+          <condition value="-1" />
+          <production-progress value="-1" />
+          <time value="3132.352" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="329" />
+          <component-type value="MealMaker" />
+          <position x="1081.035" y="0.2" z="1026.026" />
+          <orientation x="0" y="180" z="0" />
+          <condition value="-1" />
+          <production-progress value="0" />
+          <time value="3035.784" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="6" />
+            <resource type="Meal">
+              <id value="404" />
+              <trader-id value="-1" />
+              <position x="1081.035" y="0.2" z="1026.026" />
+              <orientation x="0" y="0" z="0" />
+              <state value="0" />
+              <location value="0" />
+              <subtype value="12" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+            <resource type="Meal">
+              <id value="416" />
+              <trader-id value="-1" />
+              <position x="1081.035" y="0.2" z="1026.026" />
+              <orientation x="0" y="0" z="0" />
+              <state value="0" />
+              <location value="0" />
+              <subtype value="11" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+            <resource type="Meal">
+              <id value="426" />
+              <trader-id value="-1" />
+              <position x="1081.035" y="0.2" z="1026.026" />
+              <orientation x="0" y="0" z="0" />
+              <state value="0" />
+              <location value="0" />
+              <subtype value="12" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+            <resource type="Meal">
+              <id value="427" />
+              <trader-id value="-1" />
+              <position x="1081.035" y="0.2" z="1026.026" />
+              <orientation x="0" y="0" z="0" />
+              <state value="0" />
+              <location value="0" />
+              <subtype value="12" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+            <resource type="Meal">
+              <id value="428" />
+              <trader-id value="-1" />
+              <position x="1081.035" y="0.2" z="1026.026" />
+              <orientation x="0" y="0" z="0" />
+              <state value="0" />
+              <location value="0" />
+              <subtype value="12" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+            <resource type="Vegetables">
+              <id value="422" />
+              <trader-id value="-1" />
+              <position x="1081.035" y="0.2" z="1026.026" />
+              <orientation x="344.6559" y="293.2355" z="359.9439" />
+              <state value="3" />
+              <location value="0" />
+              <subtype value="6" />
+              <condition value="0.9075553" />
+              <durability value="0" />
+            </resource>
+          </resource-container>
+        </component>
+      </components>
+      <module-type value="ModuleTypeCanteen" />
+      <size-index value="1" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9968761" />
+      <id value="192" />
+      <position x="1071.698" y="0" z="1025.367" />
+      <orientation x="0" y="263.1804" z="0" />
+      <enabled value="True" />
+      <time-built value="6156.7998623848" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="191" />
+        <id value="150" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="0.8913944" />
+      <oxygen value="-1" />
+      <id value="195" />
+      <position x="1022.262" y="0" z="1033.162" />
+      <orientation x="0" y="53.35476" z="0" />
+      <enabled value="True" />
+      <time-built value="6082.55986404419" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeWindTurbine" />
+      <size-index value="2" />
+      <mobile-rotation x="2.897923E-07" y="42.40053" z="0" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="196" />
+      <position x="1019.32" y="0" z="1022.58" />
+      <orientation x="0" y="15.53828" z="0" />
+      <enabled value="True" />
+      <time-built value="6073.59986424446" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="159" />
+        <id value="195" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="0.8613349" />
+      <oxygen value="-1" />
+      <id value="201" />
+      <position x="1032.405" y="0" z="1053.744" />
+      <orientation x="0" y="197.1463" z="0" />
+      <enabled value="True" />
+      <time-built value="5902.07986807823" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeSolarPanel" />
+      <size-index value="3" />
+      <mobile-rotation x="-1.780287E-06" y="44.69659" z="-1.761531E-06" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="202" />
+      <position x="1027.023" y="0" z="1042.823" />
+      <orientation x="0" y="26.23461" z="0" />
+      <enabled value="True" />
+      <time-built value="5894.39986824989" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="195" />
+        <id value="201" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9951557" />
+      <id value="204" />
+      <position x="1070.05" y="0" z="1001.815" />
+      <orientation x="0" y="102.4848" z="0" />
+      <enabled value="True" />
+      <time-built value="5986.55986618996" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <components>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="218" />
+          <component-type value="RicePad" />
+          <position x="1071.38" y="0.2" z="999.7277" />
+          <orientation x="0" y="0" z="0" />
+          <condition value="0.9336296" />
+          <production-progress value="0.1319501" />
+          <time value="5437.566" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="220" />
+          <component-type value="TomatoPad" />
+          <position x="1067.963" y="0.2" z="1000.484" />
+          <orientation x="0" y="0" z="0" />
+          <condition value="0.9659371" />
+          <production-progress value="0.1736289" />
+          <time value="5442.376" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="221" />
+          <component-type value="LettucePad" />
+          <position x="1068.719" y="0.2" z="1003.901" />
+          <orientation x="0" y="0" z="0" />
+          <condition value="0.7724442" />
+          <production-progress value="0.5736268" />
+          <time value="5370.116" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="420" />
+          <component-type value="MedicinalPad" />
+          <position x="1072.137" y="0.2" z="1003.145" />
+          <orientation x="0" y="0" z="0" />
+          <condition value="0.9075553" />
+          <production-progress value="0.2431099" />
+          <time value="721.2068" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+        </component>
+      </components>
+      <module-type value="ModuleTypeBioDome" />
+      <size-index value="1" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9947234" />
+      <id value="205" />
+      <position x="1076.578" y="0" z="1014.273" />
+      <orientation x="0" y="207.6556" z="0" />
+      <enabled value="True" />
+      <time-built value="5975.03986644745" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="191" />
+        <id value="204" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="206" />
+      <position x="1092.065" y="0" z="1049.896" />
+      <orientation x="0" y="289.204" z="0" />
+      <enabled value="True" />
+      <time-built value="5855.9998691082" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeMine" />
+      <size-index value="1" />
+      <production-progress value="0.5184042" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="207" />
+      <position x="1087.586" y="0" z="1038.314" />
+      <orientation x="0" y="201.1435" z="0" />
+      <enabled value="True" />
+      <time-built value="5850.87986922264" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="206" />
+        <id value="191" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9874166" />
+      <id value="208" />
+      <position x="1073.051" y="0" z="1051.024" />
+      <orientation x="0" y="350.354" z="0" />
+      <enabled value="True" />
+      <time-built value="5809.91987013817" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <components>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="216" />
+          <component-type value="BioplasticProcessor" />
+          <position x="1074.975" y="0.2" z="1049.573" />
+          <orientation x="2.504479E-06" y="270" z="0" />
+          <condition value="-1" />
+          <production-progress value="0" />
+          <time value="5433.238" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="3" />
+            <resource type="Starch">
+              <id value="441" />
+              <trader-id value="-1" />
+              <position x="1074.975" y="0.2" z="1049.573" />
+              <orientation x="80.71655" y="236.4236" z="318.3158" />
+              <state value="3" />
+              <location value="0" />
+              <subtype value="0" />
+              <condition value="0.9914666" />
+              <durability value="0" />
+            </resource>
+          </resource-container>
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="217" />
+          <component-type value="MetalProcessor" />
+          <position x="1071.63" y="0.2" z="1048.989" />
+          <orientation x="2.504478E-06" y="0" z="0" />
+          <condition value="-1" />
+          <production-progress value="0.5406706" />
+          <time value="5531.156" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="3" />
+            <resource type="Ore">
+              <id value="437" />
+              <trader-id value="-1" />
+              <position x="1071.63" y="0.2" z="1048.989" />
+              <orientation x="2.437454E-06" y="348.0651" z="2.883266E-07" />
+              <state value="3" />
+              <location value="0" />
+              <subtype value="0" />
+              <condition value="0.9886222" />
+              <durability value="0" />
+            </resource>
+          </resource-container>
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="308" />
+          <component-type value="MetalProcessor" />
+          <position x="1074.533" y="0.2" z="1052.891" />
+          <orientation x="2.504478E-06" y="180" z="-7.016708E-15" />
+          <condition value="-1" />
+          <production-progress value="0" />
+          <time value="2783.906" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="3" />
+          </resource-container>
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="309" />
+          <component-type value="BioplasticProcessor" />
+          <position x="1071.131" y="0.2" z="1052.406" />
+          <orientation x="2.504479E-06" y="90" z="1.017778E-13" />
+          <condition value="-1" />
+          <production-progress value="0" />
+          <time value="3148.781" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="3" />
+          </resource-container>
+        </component>
+      </components>
+      <module-type value="ModuleTypeProcessingPlant" />
+      <size-index value="1" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9909795" />
+      <id value="209" />
+      <position x="1078.079" y="0" z="1038.878" />
+      <orientation x="0" y="337.5139" z="0" />
+      <enabled value="True" />
+      <time-built value="5794.55987048149" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="191" />
+        <id value="208" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9994972" />
+      <id value="210" />
+      <position x="1060.559" y="0" z="981.6939" />
+      <orientation x="0" y="335.3899" z="0" />
+      <enabled value="True" />
+      <time-built value="5817.59986996651" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeOxygenGenerator" />
+      <size-index value="0" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9979256" />
+      <id value="211" />
+      <position x="1065.009" y="0" z="991.1268" />
+      <orientation x="0" y="25.25262" z="0" />
+      <enabled value="True" />
+      <time-built value="5802.23987030983" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="210" />
+        <id value="204" />
+      </links>
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="212" />
+      <position x="1053.334" y="0" z="985.7697" />
+      <orientation x="0" y="119.4269" z="0" />
+      <enabled value="True" />
+      <time-built value="5812.47987008095" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="157" />
+        <id value="210" />
+      </links>
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="213" />
+      <position x="1040.626" y="0" z="1044.877" />
+      <orientation x="0" y="317.1653" z="0" />
+      <enabled value="True" />
+      <time-built value="5832.95986962318" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="161" />
+        <id value="201" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="214" />
+      <position x="1112.428" y="0" z="1022.5" />
+      <orientation x="0" y="144.6747" z="0" />
+      <enabled value="True" />
+      <time-built value="5592.31987500191" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypePowerCollector" />
+      <size-index value="2" />
+      <power-storage value="1.25E+07" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="215" />
+      <position x="1097.146" y="0" z="1024.705" />
+      <orientation x="0" y="98.2121" z="0" />
+      <enabled value="True" />
+      <time-built value="5583.35987520218" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="191" />
+        <id value="214" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="223" />
+      <position x="1043.009" y="0" z="961.8687" />
+      <orientation x="0" y="339.0645" z="0" />
+      <enabled value="True" />
+      <time-built value="5117.4398856163" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeWaterTank" />
+      <size-index value="1" />
+      <water-storage value="600000" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="224" />
+      <position x="1044.635" y="0" z="976.5466" />
+      <orientation x="0" y="186.3222" z="0" />
+      <enabled value="True" />
+      <time-built value="5107.19988584518" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="157" />
+        <id value="223" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.988273" />
+      <id value="225" />
+      <position x="1054.022" y="0" z="1061.432" />
+      <orientation x="0" y="71.10631" z="0" />
+      <enabled value="True" />
+      <time-built value="1448.95996761322" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <components>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="397" />
+          <component-type value="SparesWorkshop" />
+          <position x="1053.645" y="0.2" z="1057.579" />
+          <orientation x="2.504478E-06" y="6.830189E-06" z="0" />
+          <condition value="-1" />
+          <production-progress value="0" />
+          <time value="780.0994" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="2" />
+            <resource type="Bioplastic">
+              <id value="398" />
+              <trader-id value="-1" />
+              <position x="1053.645" y="0.2" z="1057.579" />
+              <orientation x="52.14767" y="235.792" z="38.12337" />
+              <state value="3" />
+              <location value="0" />
+              <subtype value="0" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+          </resource-container>
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="399" />
+          <component-type value="SparesWorkshop" />
+          <position x="1051.485" y="0.2" z="1058.793" />
+          <orientation x="2.504479E-06" y="270" z="0" />
+          <condition value="-1" />
+          <production-progress value="0" />
+          <time value="393.822" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="2" />
+            <resource type="Bioplastic">
+              <id value="75" />
+              <trader-id value="-1" />
+              <position x="1051.485" y="0.2" z="1058.793" />
+              <orientation x="352.7906" y="339.1896" z="2.287776" />
+              <state value="3" />
+              <location value="0" />
+              <subtype value="0" />
+              <condition value="0.661311" />
+              <durability value="1" />
+            </resource>
+          </resource-container>
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="400" />
+          <component-type value="SemiconductorFoundry" />
+          <position x="1056.456" y="0.2" z="1064.004" />
+          <orientation x="-2.504479E-06" y="89.99998" z="1.017778E-13" />
+          <condition value="-1" />
+          <production-progress value="0" />
+          <time value="577.5761" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="2" />
+            <resource type="Bioplastic">
+              <id value="310" />
+              <trader-id value="-1" />
+              <position x="1056.456" y="0.2" z="1064.004" />
+              <orientation x="3.816666E-14" y="280.7061" z="3.370207E-07" />
+              <state value="3" />
+              <location value="0" />
+              <subtype value="0" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+          </resource-container>
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="401" />
+          <component-type value="ArmsWorkshop" />
+          <position x="1054.297" y="0.2" z="1065.219" />
+          <orientation x="2.504478E-06" y="180" z="7.016672E-15" />
+          <condition value="-1" />
+          <production-progress value="0" />
+          <time value="104.4816" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="3" />
+            <resource type="Bioplastic">
+              <id value="436" />
+              <trader-id value="-1" />
+              <position x="1054.297" y="0.2" z="1065.219" />
+              <orientation x="352.9341" y="254.9819" z="358.7944" />
+              <state value="3" />
+              <location value="0" />
+              <subtype value="0" />
+              <condition value="1" />
+              <durability value="0" />
+            </resource>
+          </resource-container>
+        </component>
+      </components>
+      <module-type value="ModuleTypeFactory" />
+      <size-index value="2" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9880421" />
+      <id value="226" />
+      <position x="1064.15" y="0" z="1055.893" />
+      <orientation x="0" y="298.6757" z="0" />
+      <enabled value="True" />
+      <time-built value="1436.15996789932" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="208" />
+        <id value="225" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.9937102" />
+      <id value="227" />
+      <position x="1098.46" y="0" z="1004.689" />
+      <orientation x="0" y="245.5269" z="0" />
+      <enabled value="True" />
+      <time-built value="5079.03988647461" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <components>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="244" />
+          <component-type value="SickBayBed" />
+          <position x="1096.006" y="0.2" z="1004.966" />
+          <orientation x="0" y="210.9205" z="0" />
+          <condition value="-1" />
+          <production-progress value="-1" />
+          <time value="4825.558" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+        </component>
+        <component type="ConstructionComponent">
+          <enabled value="True" />
+          <state value="3" />
+          <build-progress value="-1" />
+          <id value="245" />
+          <component-type value="MedicalCabinet" />
+          <position x="1096.672" y="0.2" z="1002.656" />
+          <orientation x="0" y="155.8176" z="0" />
+          <condition value="-1" />
+          <production-progress value="-1" />
+          <time value="4666.283" />
+          <enabled value="True" />
+          <produced-item-index value="0" />
+          <resource-container>
+            <capacity value="4" />
+            <resource type="MedicalSupplies">
+              <id value="140" />
+              <trader-id value="-1" />
+              <position x="1096.672" y="0.2" z="1002.656" />
+              <orientation x="345.7412" y="211.3398" z="0.8474266" />
+              <state value="2" />
+              <location value="0" />
+              <subtype value="0" />
+              <condition value="1" />
+              <durability value="1" />
+            </resource>
+            <resource type="MedicalSupplies">
+              <id value="137" />
+              <trader-id value="-1" />
+              <position x="1096.672" y="0.2" z="1002.656" />
+              <orientation x="345.7382" y="205.8408" z="1.17403" />
+              <state value="2" />
+              <location value="0" />
+              <subtype value="0" />
+              <condition value="1" />
+              <durability value="1" />
+            </resource>
+            <resource type="MedicalSupplies">
+              <id value="136" />
+              <trader-id value="-1" />
+              <position x="1096.672" y="0.2" z="1002.656" />
+              <orientation x="1.908333E-14" y="190.521" z="3.370207E-07" />
+              <state value="2" />
+              <location value="0" />
+              <subtype value="0" />
+              <condition value="1" />
+              <durability value="1" />
+            </resource>
+            <resource type="MedicalSupplies">
+              <id value="139" />
+              <trader-id value="-1" />
+              <position x="1096.672" y="0.2" z="1002.656" />
+              <orientation x="344.2946" y="214.6371" z="358.2426" />
+              <state value="2" />
+              <location value="0" />
+              <subtype value="0" />
+              <condition value="1" />
+              <durability value="1" />
+            </resource>
+          </resource-container>
+        </component>
+      </components>
+      <module-type value="ModuleTypeSickBay" />
+      <size-index value="0" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="0.993763" />
+      <id value="229" />
+      <position x="1091.18" y="0" z="1015.141" />
+      <orientation x="0" y="145.1413" z="0" />
+      <enabled value="True" />
+      <time-built value="5066.23988676071" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="191" />
+        <id value="227" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="1" />
+      <build-progress value="0" />
+      <construction-materials>
+        <id value="56" />
+      </construction-materials>
+      <pending-construction-costs>
+        <container-name value="Ausstehende Ressourcen" />
+        <amount>
+          <resource-type value="Metal" />
+          <amount value="1" />
+        </amount>
+      </pending-construction-costs>
+      <condition value="1" />
+      <oxygen value="0" />
+      <id value="231" />
+      <position x="1039.817" y="0" z="1074.406" />
+      <orientation x="0" y="132.4078" z="0" />
+      <enabled value="True" />
+      <time-built value="0" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeAirlock" />
+      <size-index value="0" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="1" />
+      <build-progress value="0" />
+      <construction-materials>
+        <id value="83" />
+      </construction-materials>
+      <pending-construction-costs>
+        <container-name value="Ausstehende Ressourcen" />
+        <amount>
+          <resource-type value="Metal" />
+          <amount value="1" />
+        </amount>
+      </pending-construction-costs>
+      <condition value="1" />
+      <oxygen value="0" />
+      <id value="232" />
+      <position x="1045.917" y="0" z="1068.834" />
+      <orientation x="0" y="312.4076" z="0" />
+      <enabled value="True" />
+      <time-built value="0" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="225" />
+        <id value="231" />
+      </links>
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="234" />
+      <position x="1031.379" y="0" z="1026.289" />
+      <orientation x="0" y="307.0081" z="0" />
+      <enabled value="True" />
+      <time-built value="4089.59990859032" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="153" />
+        <id value="195" />
+      </links>
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="235" />
+      <position x="1039.448" y="0" z="994.6676" />
+      <orientation x="0" y="305.9044" z="0" />
+      <enabled value="True" />
+      <time-built value="4524.79989886284" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="157" />
+        <id value="155" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="242" />
+      <position x="1119.241" y="0" z="999.5608" />
+      <orientation x="0" y="24.16306" z="0" />
+      <enabled value="True" />
+      <time-built value="2350.07994747162" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeWaterExtractor" />
+      <size-index value="1" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="3" />
+      <build-progress value="-1" />
+      <condition value="1" />
+      <oxygen value="-1" />
+      <id value="243" />
+      <position x="1108.24" y="0" z="1002.276" />
+      <orientation x="0" y="103.862" z="0" />
+      <enabled value="True" />
+      <time-built value="2344.95994758606" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="227" />
+        <id value="242" />
+      </links>
+    </construction>
+    <construction type="Module">
+      <enabled value="True" />
+      <state value="1" />
+      <build-progress value="0" />
+      <construction-materials>
+        <id value="85" />
+        <id value="71" />
+      </construction-materials>
+      <pending-construction-costs>
+        <container-name value="Ausstehende Ressourcen" />
+        <amount>
+          <resource-type value="Metal" />
+          <amount value="2" />
+        </amount>
+      </pending-construction-costs>
+      <condition value="1" />
+      <oxygen value="0" />
+      <id value="372" />
+      <position x="1088.045" y="0" z="990.2111" />
+      <orientation x="0" y="219.4249" z="0" />
+      <enabled value="True" />
+      <time-built value="0" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <module-type value="ModuleTypeControlCenter" />
+      <size-index value="1" />
+    </construction>
+    <construction type="Connection">
+      <enabled value="True" />
+      <state value="1" />
+      <build-progress value="0" />
+      <construction-materials>
+        <id value="179" />
+        <id value="393" />
+      </construction-materials>
+      <pending-construction-costs>
+        <container-name value="Ausstehende Ressourcen" />
+      </pending-construction-costs>
+      <condition value="1" />
+      <oxygen value="0" />
+      <id value="373" />
+      <position x="1079.047" y="0" z="996.0128" />
+      <orientation x="0" y="122.8144" z="0" />
+      <enabled value="True" />
+      <time-built value="0" />
+      <locked value="False" />
+      <high-priority value="False" />
+      <links>
+        <id value="204" />
+        <id value="372" />
+      </links>
+    </construction>
+  </constructions>
+  <characters>
+    <character type="Colonist">
+      <position x="1084.84" y="0.9176453" z="1054.508" />
+      <orientation x="0" y="91.12727" z="0" />
+      <location value="1" />
+      <name value="Emery Mcdowell" />
+      <specialization value="Worker" />
+      <status-flags value="0" />
+      <state value="0" />
+      <id value="141" />
+      <wander-time value="6088.933" />
+      <loaded-resource value="440" />
+      <Health value="1" />
+      <Nutrition value="0.7866716" />
+      <Hydration value="0.5946655" />
+      <Oxygen value="0.872" />
+      <Sleep value="0.7383103" />
+      <Morale value="0.8307648" />
+      <gender value="1" />
+      <basic-meal-count value="0" />
+      <head-index value="6" />
+      <skin-color-index value="6" />
+      <hair-color-index value="6" />
+      <doctor value="False" />
+      <inmunity-to-contagion-time value="0" />
+      <specialization value="Worker" />
+    </character>
+    <character type="Colonist">
+      <position x="1070.022" y="0.2" z="1049.081" />
+      <orientation x="-5.088888E-13" y="80.35403" z="2.504479E-06" />
+      <location value="0" />
+      <name value="D.E. Berglund" />
+      <specialization value="Worker" />
+      <status-flags value="0" />
+      <state value="3" />
+      <id value="142" />
+      <wander-time value="6293.704" />
+      <Health value="1" />
+      <Nutrition value="0.7695993" />
+      <Hydration value="0.761066" />
+      <Oxygen value="1" />
+      <Sleep value="0.7354659" />
+      <Morale value="0.8619455" />
+      <gender value="0" />
+      <basic-meal-count value="0" />
+      <head-index value="17" />
+      <skin-color-index value="1" />
+      <hair-color-index value="2" />
+      <doctor value="False" />
+      <inmunity-to-contagion-time value="0" />
+      <specialization value="Worker" />
+    </character>
+    <character type="Colonist">
+      <position x="1082.858" y="0.0001874559" z="1041.746" />
+      <orientation x="0" y="137.6025" z="0" />
+      <location value="1" />
+      <name value="Phoebe Brooks" />
+      <specialization value="Worker" />
+      <status-flags value="0" />
+      <state value="1" />
+      <id value="143" />
+      <wander-time value="6291.144" />
+      <Health value="1" />
+      <Nutrition value="0.6544046" />
+      <Hydration value="0.7226658" />
+      <Oxygen value="0.8613333" />
+      <Sleep value="0.7923549" />
+      <Morale value="0.9187027" />
+      <gender value="1" />
+      <basic-meal-count value="0" />
+      <head-index value="5" />
+      <skin-color-index value="6" />
+      <hair-color-index value="0" />
+      <doctor value="False" />
+      <inmunity-to-contagion-time value="0" />
+      <specialization value="Worker" />
+    </character>
+    <character type="Colonist">
+      <position x="1047.87" y="0.8" z="1034.404" />
+      <orientation x="-5.088888E-13" y="78.37459" z="2.504478E-06" />
+      <location value="0" />
+      <name value="Maverick Fachamp" />
+      <specialization value="Biologist" />
+      <status-flags value="0" />
+      <state value="3" />
+      <id value="144" />
+      <wander-time value="112.64" />
+      <Health value="1" />
+      <Nutrition value="0.9872" />
+      <Hydration value="0.8037328" />
+      <Oxygen value="1" />
+      <Sleep value="0.7155551" />
+      <Morale value="0.9731359" />
+      <gender value="0" />
+      <basic-meal-count value="0" />
+      <head-index value="11" />
+      <skin-color-index value="2" />
+      <hair-color-index value="0" />
+      <doctor value="True" />
+      <inmunity-to-contagion-time value="0" />
+      <specialization value="Biologist" />
+    </character>
+    <character type="Colonist">
+      <position x="1068.233" y="0.2" z="1001.705" />
+      <orientation x="2.544444E-14" y="192.4848" z="2.504478E-06" />
+      <location value="0" />
+      <name value="Teague Blair" />
+      <specialization value="Biologist" />
+      <status-flags value="0" />
+      <state value="3" />
+      <id value="145" />
+      <wander-time value="102.4" />
+      <Health value="1" />
+      <Nutrition value="0.7183992" />
+      <Hydration value="0.8421329" />
+      <Oxygen value="1" />
+      <Sleep value="0.7582215" />
+      <Morale value="0.9174899" />
+      <gender value="0" />
+      <basic-meal-count value="0" />
+      <head-index value="10" />
+      <skin-color-index value="1" />
+      <hair-color-index value="2" />
+      <doctor value="False" />
+      <inmunity-to-contagion-time value="0" />
+      <specialization value="Biologist" />
+    </character>
+    <character type="Colonist">
+      <position x="1047.724" y="2.322" z="1034.851" />
+      <orientation x="-5.088888E-13" y="78.37459" z="2.504478E-06" />
+      <location value="0" />
+      <name value="Manon Schmidt" />
+      <specialization value="Engineer" />
+      <status-flags value="0" />
+      <state value="3" />
+      <id value="146" />
+      <wander-time value="61.43999" />
+      <Health value="1" />
+      <Nutrition value="0.8037328" />
+      <Hydration value="0.9317331" />
+      <Oxygen value="1" />
+      <Sleep value="0.7552003" />
+      <Morale value="0.9325947" />
+      <gender value="1" />
+      <basic-meal-count value="0" />
+      <head-index value="5" />
+      <skin-color-index value="3" />
+      <hair-color-index value="6" />
+      <doctor value="False" />
+      <inmunity-to-contagion-time value="0" />
+      <specialization value="Engineer" />
+    </character>
+    <character type="Colonist">
+      <position x="1076.454" y="0.2000001" z="1049.824" />
+      <orientation x="2.504479E-06" y="260.354" z="0" />
+      <location value="0" />
+      <name value="Rod Kelly" />
+      <specialization value="Medic" />
+      <status-flags value="0" />
+      <state value="1" />
+      <id value="147" />
+      <wander-time value="71.67999" />
+      <Health value="1" />
+      <Nutrition value="0.9701332" />
+      <Hydration value="0.9573332" />
+      <Oxygen value="1" />
+      <Sleep value="0.6956435" />
+      <Morale value="0.8497957" />
+      <gender value="0" />
+      <basic-meal-count value="1" />
+      <head-index value="0" />
+      <skin-color-index value="1" />
+      <hair-color-index value="2" />
+      <doctor value="False" />
+      <inmunity-to-contagion-time value="0" />
+      <specialization value="Medic" />
+    </character>
+    <character type="Bot">
+      <position x="1083.299" y="0.2" z="1028.361" />
+      <orientation x="-2.504478E-06" y="296.2055" z="-8.14222E-13" />
+      <location value="0" />
+      <name value="CR-1" />
+      <specialization value="Carrier" />
+      <status-flags value="0" />
+      <state value="0" />
+      <id value="148" />
+      <wander-time value="71.67999" />
+      <Condition value="0.5516992" />
+      <Integrity value="0.3185784" />
+      <integrity-decay-rate value="9703.729" />
+    </character>
+    <character type="Bot">
+      <position x="1084.681" y="0.2" z="1027.214" />
+      <orientation x="0" y="165.2456" z="0" />
+      <location value="0" />
+      <name value="CNT-2" />
+      <specialization value="Constructor" />
+      <status-flags value="0" />
+      <state value="0" />
+      <id value="149" />
+      <wander-time value="10.24" />
+      <Condition value="0.4806626" />
+      <Integrity value="0.4970772" />
+      <integrity-decay-rate value="13240.02" />
+    </character>
+  </characters>
+  <resources>
+    <resource type="Bioplastic">
+      <id value="56" />
+      <trader-id value="-1" />
+      <position x="1041.666" y="0.2000051" z="1073.922" />
+      <orientation x="0" y="265.965" z="0" />
+      <state value="3" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.9101902" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="57" />
+      <trader-id value="-1" />
+      <position x="1085.5" y="0" z="1009.5" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6418984" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="66" />
+      <trader-id value="-1" />
+      <position x="1084.3" y="0" z="1009.5" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6420406" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="67" />
+      <trader-id value="-1" />
+      <position x="1083.1" y="0" z="1010.7" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6420406" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="71" />
+      <trader-id value="-1" />
+      <position x="1085.855" y="0.2000003" z="993.9391" />
+      <orientation x="0" y="168.0437" z="0" />
+      <state value="3" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.7470676" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="74" />
+      <trader-id value="-1" />
+      <position x="1081.9" y="0" z="1007.1" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6419695" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="78" />
+      <trader-id value="-1" />
+      <position x="1081.9" y="0.8999946" z="1007.1" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6418273" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="80" />
+      <trader-id value="-1" />
+      <position x="1080.7" y="0" z="1007.1" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6418273" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="81" />
+      <trader-id value="-1" />
+      <position x="1083.1" y="0" z="1007.1" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6418273" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="83" />
+      <trader-id value="-1" />
+      <position x="1045.44" y="0.1500006" z="1069.292" />
+      <orientation x="0" y="244.0259" z="0" />
+      <state value="3" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.9222075" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="84" />
+      <trader-id value="-1" />
+      <position x="1084.3" y="0" z="1005.9" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6419695" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="85" />
+      <trader-id value="-1" />
+      <position x="1085.971" y="0.200001" z="987.9312" />
+      <orientation x="0" y="138.7776" z="0" />
+      <state value="3" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.7490587" />
+      <durability value="1" />
+    </resource>
+    <resource type="Meal">
+      <id value="86" />
+      <trader-id value="-1" />
+      <position x="1086.7" y="0" z="1005.9" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="13" />
+      <condition value="0.6419695" />
+      <durability value="1" />
+    </resource>
+    <resource type="Meal">
+      <id value="107" />
+      <trader-id value="-1" />
+      <position x="1086.7" y="0" z="1004.7" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="13" />
+      <condition value="0.6425384" />
+      <durability value="1" />
+    </resource>
+    <resource type="Meal">
+      <id value="116" />
+      <trader-id value="-1" />
+      <position x="1085.5" y="0" z="1005.9" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="13" />
+      <condition value="0.6420406" />
+      <durability value="1" />
+    </resource>
+    <resource type="Spares">
+      <id value="125" />
+      <trader-id value="-1" />
+      <position x="1085.5" y="0" z="1010.7" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6418273" />
+      <durability value="1" />
+    </resource>
+    <resource type="MedicalSupplies">
+      <id value="134" />
+      <trader-id value="-1" />
+      <position x="1087.9" y="0" z="1008.3" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6420406" />
+      <durability value="1" />
+    </resource>
+    <resource type="MedicalSupplies">
+      <id value="138" />
+      <trader-id value="-1" />
+      <position x="1086.753" y="0.04914129" z="1013.102" />
+      <orientation x="0" y="0" z="0" />
+      <state value="0" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.6419695" />
+      <durability value="1" />
+    </resource>
+    <resource type="Bioplastic">
+      <id value="179" />
+      <trader-id value="-1" />
+      <position x="1079.13" y="0.1500063" z="997.6353" />
+      <orientation x="0" y="159.9446" z="0" />
+      <state value="3" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.7496275" />
+      <durability value="1" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="303" />
+      <trader-id value="-1" />
+      <position x="1070.568" y="1.150001" z="998.3712" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="7" />
+      <condition value="0.004451846" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="304" />
+      <trader-id value="-1" />
+      <position x="1068.127" y="1.600002" z="998.9116" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="7" />
+      <condition value="0.004451846" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="311" />
+      <trader-id value="-1" />
+      <position x="1070.568" y="1.600001" z="998.3712" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="3" />
+      <condition value="0.02294074" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="312" />
+      <trader-id value="-1" />
+      <position x="1068.127" y="2.050002" z="998.9116" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="3" />
+      <condition value="0.02294074" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="347" />
+      <trader-id value="-1" />
+      <position x="1066.606" y="1.600004" z="1001.297" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="6" />
+      <condition value="0.2391188" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="348" />
+      <trader-id value="-1" />
+      <position x="1067.147" y="0.7000012" z="1003.738" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="6" />
+      <condition value="0.2391188" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="352" />
+      <trader-id value="-1" />
+      <position x="1070.568" y="2.050001" z="998.3712" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="7" />
+      <condition value="0.2440965" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="353" />
+      <trader-id value="-1" />
+      <position x="1072.953" y="1.150002" z="999.8915" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="3" />
+      <condition value="0.2896078" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="355" />
+      <trader-id value="-1" />
+      <position x="1073.493" y="0.7000022" z="1002.332" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="8" />
+      <condition value="0.3294301" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="364" />
+      <trader-id value="-1" />
+      <position x="1066.606" y="2.050004" z="1001.297" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="6" />
+      <condition value="0.3518302" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="365" />
+      <trader-id value="-1" />
+      <position x="1067.147" y="1.150002" z="1003.738" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="6" />
+      <condition value="0.3518302" />
+      <durability value="0" />
+    </resource>
+    <resource type="Vegetables">
+      <id value="370" />
+      <trader-id value="-1" />
+      <position x="1072.953" y="1.600002" z="999.8915" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="3" />
+      <condition value="0.4012523" />
+      <durability value="0" />
+    </resource>
+    <resource type="Metal">
+      <id value="393" />
+      <trader-id value="-1" />
+      <position x="1078.193" y="0.1500006" z="996.7065" />
+      <orientation x="0" y="10.55961" z="0" />
+      <state value="3" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="1" />
+      <durability value="0" />
+    </resource>
+    <resource type="MedicinalPlants">
+      <id value="439" />
+      <trader-id value="-1" />
+      <position x="1073.493" y="1.150002" z="1002.332" />
+      <orientation x="0" y="102.4848" z="0" />
+      <state value="0" />
+      <location value="0" />
+      <subtype value="0" />
+      <condition value="0.9630221" />
+      <durability value="0" />
+    </resource>
+    <resource type="Ore">
+      <id value="440" />
+      <trader-id value="-1" />
+      <position x="1085.238" y="2.014825" z="1054.124" />
+      <orientation x="0" y="0" z="0" />
+      <state value="1" />
+      <location value="1" />
+      <subtype value="0" />
+      <condition value="0.9829333" />
+      <durability value="0" />
+    </resource>
+    <inmaterial-resources>
+      <container-name value="" />
+    </inmaterial-resources>
+  </resources>
+  <ships />
+  <interactions>
+    <interaction type="InteractionOperate">
+      <character id="142" type-name="Colonist" />
+      <selectable id="217" type-name="ConstructionComponent" />
+      <interaction-point value="0" />
+    </interaction>
+    <interaction type="InteractionRepairBuildable">
+      <character id="145" type-name="Colonist" />
+      <selectable id="220" type-name="ConstructionComponent" />
+    </interaction>
+    <interaction type="InteractionComponentRestore">
+      <character id="146" type-name="Colonist" />
+      <selectable id="189" type-name="ConstructionComponent" />
+      <interaction-point value="1" />
+    </interaction>
+    <interaction type="InteractionComponentRestore">
+      <character id="144" type-name="Colonist" />
+      <selectable id="189" type-name="ConstructionComponent" />
+      <interaction-point value="0" />
+    </interaction>
+  </interactions>
+  <screenshot><![CDATA[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]]></screenshot>
+</save-game>
