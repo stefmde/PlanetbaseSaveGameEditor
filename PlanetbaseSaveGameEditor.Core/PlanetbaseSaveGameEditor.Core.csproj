@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Interaction.cs" />
+    <Compile Include="Models\InteractionPoint.cs" />
+    <Compile Include="Models\Interactions.cs" />
     <Compile Include="Models\SaveGame\Amount.cs" />
     <Compile Include="Models\SaveGame\BuildProgress.cs" />
     <Compile Include="Models\SaveGame\Component.cs" />
@@ -49,7 +52,10 @@
     <Compile Include="Models\SaveGame\ConstructionMaterials.cs" />
     <Compile Include="Models\SaveGame\Constructions.cs" />
     <Compile Include="Models\SaveGame\Enabled.cs" />
+    <Compile Include="Models\SaveGame\Fee.cs" />
+    <Compile Include="Models\SaveGame\FinalRotation.cs" />
     <Compile Include="Models\SaveGame\HighPriority.cs" />
+    <Compile Include="Models\SaveGame\Intruders.cs" />
     <Compile Include="Models\SaveGame\LaserCharge.cs" />
     <Compile Include="Models\SaveGame\Links.cs" />
     <Compile Include="Models\SaveGame\Locked.cs" />
@@ -115,17 +121,20 @@
     <Compile Include="Models\SaveGame\NextId.cs" />
     <Compile Include="Models\SaveGame\Nutrition.cs" />
     <Compile Include="Models\SaveGame\Orientation.cs" />
+    <Compile Include="Models\SaveGame\OriginalRotation.cs" />
     <Compile Include="Models\SaveGame\Oxygen.cs" />
     <Compile Include="Models\SaveGame\PendingConstructionCosts.cs" />
+    <Compile Include="Models\SaveGame\PendingVisitors.cs" />
     <Compile Include="Models\SaveGame\Planet.cs" />
     <Compile Include="Models\SaveGame\PlanetIndex.cs" />
     <Compile Include="Models\SaveGame\Position.cs" />
     <Compile Include="Models\SaveGame\PowerStorage.cs" />
+    <Compile Include="Models\SaveGame\Prestige.cs" />
     <Compile Include="Models\SaveGame\ProducedItemIndex.cs" />
     <Compile Include="Models\SaveGame\ProductionProgress.cs" />
     <Compile Include="Models\SaveGame\RealGameTime.cs" />
     <Compile Include="Models\SaveGame\Resource.cs" />
-    <Compile Include="Models\SaveGame\ResourCecontainer.cs" />
+    <Compile Include="Models\SaveGame\ResourceContainer.cs" />
     <Compile Include="Models\SaveGame\Resources.cs" />
     <Compile Include="Models\SaveGame\ResourceStorage.cs" />
     <Compile Include="Models\SaveGame\ResourceType.cs" />
@@ -137,7 +146,9 @@
     <Compile Include="Models\SaveGame\Ship.cs" />
     <Compile Include="Models\SaveGame\ShipManager.cs" />
     <Compile Include="Models\SaveGame\Ships.cs" />
+    <Compile Include="Models\SaveGame\ShipType.cs" />
     <Compile Include="Models\SaveGame\ShownHints.cs" />
+    <Compile Include="Models\SaveGame\Size.cs" />
     <Compile Include="Models\SaveGame\SizeIndex.cs" />
     <Compile Include="Models\SaveGame\SkinColorIndex.cs" />
     <Compile Include="Models\SaveGame\Sleep.cs" />
@@ -148,10 +159,11 @@
     <Compile Include="Models\SaveGame\SparesLimit.cs" />
     <Compile Include="Models\SaveGame\Specialization.cs" />
     <Compile Include="Models\SaveGame\State.cs" />
+    <Compile Include="Models\SaveGame\StateTime.cs" />
     <Compile Include="Models\SaveGame\Stats.cs" />
     <Compile Include="Models\SaveGame\StatusFlags.cs" />
     <Compile Include="Models\SaveGame\Subtype.cs" />
-    <Compile Include="Models\SaveGame\TargetPosition.cs" />
+    <Compile Include="Models\SaveGame\TargetModule.cs" />
     <Compile Include="Models\SaveGame\Terrain.cs" />
     <Compile Include="Models\SaveGame\Time.cs" />
     <Compile Include="Models\SaveGame\TimeBuilt.cs" />
@@ -165,8 +177,10 @@
     <Compile Include="Models\SaveGame\TimeToNextSolarflare.cs" />
     <Compile Include="Models\SaveGame\TraderId.cs" />
     <Compile Include="Models\SaveGame\TypeName.cs" />
+    <Compile Include="Models\SaveGame\Velocity.cs" />
     <Compile Include="Models\SaveGame\VisitorCount.cs" />
     <Compile Include="Models\SaveGame\VisitorEvent.cs" />
+    <Compile Include="Models\SaveGame\VisitorEventName.cs" />
     <Compile Include="Models\SaveGame\VisitorEvents.cs" />
     <Compile Include="Models\SaveGame\VisitorsAllowed.cs" />
     <Compile Include="Models\SaveGame\WanderTime.cs" />
@@ -175,6 +189,10 @@
     <Compile Include="Models\SaveGame\WorkerPercentage.cs" />
     <Compile Include="Models\SaveGame\Tech.cs" />
     <Compile Include="Models\SaveGame\Techs.cs" />
+    <Compile Include="Models\Selectable.cs" />
+    <Compile Include="Models\Stage.cs" />
+    <Compile Include="Models\StageProgress.cs" />
+    <Compile Include="Models\Target.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\SaveGame.cs" />
   </ItemGroup>

@@ -77,10 +77,9 @@ namespace PlanetbaseSaveGameEditor.Core.Models
 		public Ships Ships { get; set; }
 
 		[XmlElement(ElementName = "interactions")]
-		public string Interactions { get; set; }
+		public Interactions Interactions { get; set; }
 
 		[XmlElement(ElementName = "screenshot")]
 		public string Screenshot { get; set; }
-
 	}
 }

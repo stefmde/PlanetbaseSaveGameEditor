@@ -2,14 +2,16 @@ using System.Xml.Serialization;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGame
 {
-	[XmlRoot(ElementName = "target-position")]
-	public class TargetPosition
+	[XmlRoot(ElementName = "original-rotation")]
+	public class OriginalRotation
 	{
 		[XmlAttribute(AttributeName = "x")]
-		public string X { get; set; }
+		public double X { get; set; }
+
 		[XmlAttribute(AttributeName = "y")]
-		public string Y { get; set; }
+		public double Y { get; set; }
+
 		[XmlAttribute(AttributeName = "z")]
-		public string Z { get; set; }
+		public double Z { get; set; }
 	}
 }

@@ -6,6 +6,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGame
 	public class HeadIndex
 	{
 		[XmlAttribute(AttributeName = "value")]
-		public string Value { get; set; }
+		public int Value { get; set; }
 	}
 }

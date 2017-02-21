@@ -5,6 +5,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGame
 	[XmlRoot(ElementName = "character")]
 	public class Character
 	{
+		[XmlAttribute(AttributeName = "type")]
+		public string Type { get; set; }
+
+
 		[XmlElement(ElementName = "position")]
 		public Position Position { get; set; }
 
@@ -21,7 +25,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGame
 		public Specialization Specialization { get; set; }
 
 		[XmlElement(ElementName = "status-flags")]
-		public StatusFlags Statusflags { get; set; }
+		public StatusFlags StatusFlags { get; set; }
 
 		[XmlElement(ElementName = "state")]
 		public State State { get; set; }
@@ -30,7 +34,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGame
 		public Id Id { get; set; }
 
 		[XmlElement(ElementName = "wander-time")]
-		public WanderTime Wandertime { get; set; }
+		public WanderTime WanderTime { get; set; }
 
 		[XmlElement(ElementName = "Health")]
 		public Health Health { get; set; }
@@ -54,25 +58,22 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGame
 		public Gender Gender { get; set; }
 
 		[XmlElement(ElementName = "basic-meal-count")]
-		public BasicMealCount Basicmealcount { get; set; }
+		public BasicMealCount BasicMealCount { get; set; }
 
 		[XmlElement(ElementName = "head-index")]
-		public HeadIndex Headindex { get; set; }
+		public HeadIndex HeadIndex { get; set; }
 
 		[XmlElement(ElementName = "skin-color-index")]
-		public SkinColorIndex Skincolorindex { get; set; }
+		public SkinColorIndex SkinColorIndex { get; set; }
 
 		[XmlElement(ElementName = "hair-color-index")]
-		public HairColorIndex Haircolorindex { get; set; }
+		public HairColorIndex HairColorIndex { get; set; }
 
 		[XmlElement(ElementName = "doctor")]
 		public Doctor Doctor { get; set; }
 
 		[XmlElement(ElementName = "inmunity-to-contagion-time")]
-		public InmunityToContagionTime Inmunitytocontagiontime { get; set; }
-
-		[XmlAttribute(AttributeName = "type")]
-		public string Type { get; set; }
+		public InmunityToContagionTime InmunityToContagionTime { get; set; }
 
 		[XmlElement(ElementName = "Condition")]
 		public CharacterCondition CharacterCondition { get; set; }
@@ -81,6 +82,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGame
 		public Integrity Integrity { get; set; }
 
 		[XmlElement(ElementName = "integrity-decay-rate")]
-		public IntegrityDecayRate Integritydecayrate { get; set; }
+		public IntegrityDecayRate IntegrityDecayRate { get; set; }
 	}
 }

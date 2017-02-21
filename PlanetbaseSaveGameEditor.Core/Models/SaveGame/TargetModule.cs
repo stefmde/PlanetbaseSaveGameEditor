@@ -2,10 +2,10 @@ using System.Xml.Serialization;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGame
 {
-	[XmlRoot(ElementName = "doctor")]
-	public class Doctor
+	[XmlRoot(ElementName = "target-module")]
+	public class TargetModule
 	{
 		[XmlAttribute(AttributeName = "value")]
-		public bool Value { get; set; }
+		public int Value { get; set; }
 	}
 }

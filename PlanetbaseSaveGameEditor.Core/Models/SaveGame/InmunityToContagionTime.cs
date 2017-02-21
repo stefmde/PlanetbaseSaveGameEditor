@@ -6,6 +6,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGame
 	public class InmunityToContagionTime
 	{
 		[XmlAttribute(AttributeName = "value")]
-		public string Value { get; set; }
+		public double Value { get; set; }
 	}
 }
