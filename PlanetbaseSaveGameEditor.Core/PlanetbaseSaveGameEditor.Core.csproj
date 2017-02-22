@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\SaveGameModels\Attributes\BoolValueAttribute.cs" />
+    <Compile Include="Models\SaveGameModels\Cdata.cs" />
     <Compile Include="Models\SaveGameModels\Coordinates.cs" />
     <Compile Include="Models\SaveGameModels\Enums\CharacterType.cs" />
     <Compile Include="Models\SaveGameModels\Enums\ComponentType.cs" />
