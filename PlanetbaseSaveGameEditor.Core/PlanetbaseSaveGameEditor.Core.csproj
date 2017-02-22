@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\SaveGameModels\Attributes\BoolValueAttribute.cs" />
+    <Compile Include="Models\SaveGameModels\Coordinates.cs" />
     <Compile Include="Models\SaveGameModels\Enums\CharacterType.cs" />
     <Compile Include="Models\SaveGameModels\Enums\ComponentType.cs" />
     <Compile Include="Models\SaveGameModels\Interaction.cs" />
@@ -52,7 +53,6 @@
     <Compile Include="Models\SaveGameModels\Construction.cs" />
     <Compile Include="Models\SaveGameModels\ConstructionMaterials.cs" />
     <Compile Include="Models\SaveGameModels\Constructions.cs" />
-    <Compile Include="Models\SaveGameModels\FinalRotation.cs" />
     <Compile Include="Models\SaveGameModels\Links.cs" />
     <Compile Include="Models\SaveGameModels\MeteorManager.cs" />
     <Compile Include="Models\SaveGameModels\Milestones.cs" />
@@ -69,13 +69,9 @@
     <Compile Include="Models\SaveGameModels\InmaterialResources.cs" />
     <Compile Include="Models\SaveGameModels\LandingPermissions.cs" />
     <Compile Include="Models\SaveGameModels\ManufactureLimits.cs" />
-    <Compile Include="Models\SaveGameModels\MobileRotation.cs" />
     <Compile Include="Models\SaveGameModels\Enums\ModuleType.cs" />
-    <Compile Include="Models\SaveGameModels\Orientation.cs" />
-    <Compile Include="Models\SaveGameModels\OriginalRotation.cs" />
     <Compile Include="Models\SaveGameModels\PendingConstructionCosts.cs" />
     <Compile Include="Models\SaveGameModels\Planet.cs" />
-    <Compile Include="Models\SaveGameModels\Position.cs" />
     <Compile Include="Models\SaveGameModels\Resource.cs" />
     <Compile Include="Models\SaveGameModels\ResourceContainer.cs" />
     <Compile Include="Models\SaveGameModels\Resources.cs" />
@@ -91,12 +87,10 @@
     <Compile Include="Models\SaveGameModels\Stats.cs" />
     <Compile Include="Models\SaveGameModels\Terrain.cs" />
     <Compile Include="Models\SaveGameModels\Attributes\ValueAttribute.cs" />
-    <Compile Include="Models\SaveGameModels\Velocity.cs" />
     <Compile Include="Models\SaveGameModels\VisitorEvent.cs" />
     <Compile Include="Models\SaveGameModels\VisitorEvents.cs" />
     <Compile Include="Models\SaveGameModels\Techs.cs" />
     <Compile Include="Models\SaveGameModels\Selectable.cs" />
-    <Compile Include="Models\SaveGameModels\Target.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\SaveGame.cs" />
     <Compile Include="Worker\SaveGameManager.cs" />

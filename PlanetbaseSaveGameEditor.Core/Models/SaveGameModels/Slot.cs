@@ -9,7 +9,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Slot
 	{
 		[XmlElement(ElementName = "position")]
-		public Position Position { get; set; }
+		public Coordinates Position { get; set; }
 
 		[XmlElement(ElementName = "max-height")]
 		public ValueAttribute<Double> MaxHeight { get; set; }

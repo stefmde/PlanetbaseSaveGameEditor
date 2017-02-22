@@ -15,10 +15,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public ValueAttribute<Int32> Id { get; set; }
 
 		[XmlElement(ElementName = "position")]
-		public Position Position { get; set; }
+		public Coordinates Position { get; set; }
 
 		[XmlElement(ElementName = "orientation")]
-		public Orientation Orientation { get; set; }
+		public Coordinates Orientation { get; set; }
 
 		[XmlElement(ElementName = "state-time")]
 		public ValueAttribute<Double> StateTime { get; set; }
@@ -30,10 +30,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public ValueAttribute<Int32> TargetModule { get; set; }
 
 		[XmlElement(ElementName = "original-rotation")]
-		public OriginalRotation OriginalRotation { get; set; }
+		public Coordinates OriginalRotation { get; set; }
 
 		[XmlElement(ElementName = "final-rotation")]
-		public FinalRotation FinalRotation { get; set; }
+		public Coordinates FinalRotation { get; set; }
 
 		[XmlElement(ElementName = "size")]
 		public ValueAttribute<Int32> Size { get; set; }
@@ -42,7 +42,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public BoolValueAttribute Intruders { get; set; }
 
 		[XmlElement(ElementName = "velocity")]
-		public Velocity Velocity { get; set; }
+		public Coordinates Velocity { get; set; }
 
 		[XmlElement(ElementName = "visitor-event-name")]
 		public ValueAttribute<String> Visitoreventname { get; set; }

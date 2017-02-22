@@ -28,12 +28,11 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		[XmlElement(ElementName = "component-type")]
 		public ValueAttribute<ComponentTypeType> ComponentType { get; set; }
 
-		// TODO: Merge those three cordinate classes in one?
 		[XmlElement(ElementName = "position")]
-		public Position Position { get; set; }
+		public Coordinates Position { get; set; }
 
 		[XmlElement(ElementName = "orientation")]
-		public Orientation Orientation { get; set; }
+		public Coordinates Orientation { get; set; }
 
 		[XmlElement(ElementName = "condition")]
 		public ValueAttribute<Double> Condition { get; set; }

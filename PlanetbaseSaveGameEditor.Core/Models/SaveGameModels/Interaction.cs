@@ -27,6 +27,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public ValueAttribute<Double> StageProgress { get; set; }
 
 		[XmlElement(ElementName = "target")]
-		public Target Target { get; set; }
+		public Coordinates Target { get; set; }
 	}
 }

@@ -18,10 +18,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public ValueAttribute<Int32> Traderid { get; set; }
 
 		[XmlElement(ElementName = "position")]
-		public Position Position { get; set; }
+		public Coordinates Position { get; set; }
 
 		[XmlElement(ElementName = "orientation")]
-		public Orientation Orientation { get; set; }
+		public Coordinates Orientation { get; set; }
 
 		[XmlElement(ElementName = "state")]
 		public ValueAttribute<Int32> State { get; set; }

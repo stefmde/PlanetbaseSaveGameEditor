@@ -13,10 +13,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 
 
 		[XmlElement(ElementName = "position")]
-		public Position Position { get; set; }
+		public Coordinates Position { get; set; }
 
 		[XmlElement(ElementName = "orientation")]
-		public Orientation Orientation { get; set; }
+		public Coordinates Orientation { get; set; }
 
 		[XmlElement(ElementName = "location")]
 		public ValueAttribute<Int32> Location { get; set; }

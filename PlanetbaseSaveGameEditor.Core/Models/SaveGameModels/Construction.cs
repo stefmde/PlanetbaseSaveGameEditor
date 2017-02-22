@@ -32,10 +32,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public ValueAttribute<Int32> Id { get; set; }
 
 		[XmlElement(ElementName = "position")]
-		public Position Position { get; set; }
+		public Coordinates Position { get; set; }
 
 		[XmlElement(ElementName = "orientation")]
-		public Orientation Orientation { get; set; }
+		public Coordinates Orientation { get; set; }
 
 		[XmlElement(ElementName = "time-built")]
 		public ValueAttribute<Double> TimeBuilt { get; set; }
@@ -53,7 +53,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public ValueAttribute<Int32> SizeIndex { get; set; }
 
 		[XmlElement(ElementName = "mobile-rotation")]
-		public MobileRotation MobileRotation { get; set; }
+		public Coordinates MobileRotation { get; set; }
 
 		[XmlElement(ElementName = "components")]
 		public Components Components { get; set; }

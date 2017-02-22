@@ -1,9 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
-	[XmlRoot(ElementName = "original-rotation")]
-	public class OriginalRotation
+	public class Coordinates
 	{
 		[XmlAttribute(AttributeName = "x")]
 		public double X { get; set; }
