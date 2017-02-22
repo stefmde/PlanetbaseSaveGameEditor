@@ -13,7 +13,7 @@ namespace PlanetbaseSaveGameEditor.TestConsole
 	{
 		static void Main(string[] args)
 		{
-			string filePath = @"F:\Drive\OneDrive\Dokumente\Planetbase\Saves\save13.sav";
+			string filePath = @"..\..\..\Solution Items\SaveGame Samples\save9.sav";
 
 			string fileContent = File.ReadAllText(filePath);
 

@@ -1,4 +1,7 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -9,9 +12,9 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public string Value { get; set; }
 
 		[XmlElement(ElementName = "resource-type")]
-		public ResourceType ResourceType { get; set; }
+		public ValueAttribute<ResourceType> ResourceType { get; set; }
 
 		[XmlElement(ElementName = "amount")]
-		public ValueAmount ValueAmount { get; set; }
+		public ValueAttribute<Int32> ValueAmount { get; set; }
 	}
 }

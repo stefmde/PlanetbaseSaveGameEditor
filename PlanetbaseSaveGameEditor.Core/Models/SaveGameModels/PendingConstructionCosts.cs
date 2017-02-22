@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -7,7 +9,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class PendingConstructionCosts
 	{
 		[XmlElement(ElementName = "container-name")]
-		public ContainerName ContainerName { get; set; }
+		public ValueAttribute<String> ContainerName { get; set; }
 
 		[XmlElement(ElementName = "amount")]
 		public List<Amount> Amount { get; set; }

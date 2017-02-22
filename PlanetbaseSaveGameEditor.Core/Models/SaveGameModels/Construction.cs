@@ -1,4 +1,8 @@
-﻿using System.Xml.Serialization;
+﻿using System;
+using System.CodeDom;
+using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -10,22 +14,22 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 
 
 		[XmlElement(ElementName = "enabled")]
-		public Enabled Enabled { get; set; }
+		public BoolValueAttribute Enabled { get; set; }
 
 		[XmlElement(ElementName = "state")]
-		public State State { get; set; }
+		public ValueAttribute<Double> State { get; set; }
 
 		[XmlElement(ElementName = "build-progress")]
-		public BuildProgress BuildProgress { get; set; }
+		public ValueAttribute<Double> BuildProgress { get; set; }
 
 		[XmlElement(ElementName = "condition")]
-		public Condition Condition { get; set; }
+		public ValueAttribute<Double> Condition { get; set; }
 
 		[XmlElement(ElementName = "oxygen")]
-		public Oxygen Oxygen { get; set; }
+		public ValueAttribute<Double> Oxygen { get; set; }
 
 		[XmlElement(ElementName = "id")]
-		public Id Id { get; set; }
+		public ValueAttribute<Int32> Id { get; set; }
 
 		[XmlElement(ElementName = "position")]
 		public Position Position { get; set; }
@@ -34,19 +38,19 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public Orientation Orientation { get; set; }
 
 		[XmlElement(ElementName = "time-built")]
-		public TimeBuilt TimeBuilt { get; set; }
+		public ValueAttribute<Double> TimeBuilt { get; set; }
 
 		[XmlElement(ElementName = "locked")]
-		public Locked Locked { get; set; }
+		public BoolValueAttribute Locked { get; set; }
 
 		[XmlElement(ElementName = "high-priority")]
-		public HighPriority HighPriority { get; set; }
+		public BoolValueAttribute HighPriority { get; set; }
 
 		[XmlElement(ElementName = "module-type")]
-		public ModuleType ModuleType { get; set; }
+		public ValueAttribute<ModuleType> ModuleType { get; set; }
 
 		[XmlElement(ElementName = "size-index")]
-		public SizeIndex SizeIndex { get; set; }
+		public ValueAttribute<Int32> SizeIndex { get; set; }
 
 		[XmlElement(ElementName = "mobile-rotation")]
 		public MobileRotation MobileRotation { get; set; }
@@ -55,19 +59,19 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public Components Components { get; set; }
 
 		[XmlElement(ElementName = "power-storage")]
-		public PowerStorage PowerStorage { get; set; }
+		public ValueAttribute<Double> PowerStorage { get; set; }
 
 		[XmlElement(ElementName = "production-progress")]
-		public ProductionProgress ProductionProgress { get; set; }
+		public ValueAttribute<Double> ProductionProgress { get; set; }
 
 		[XmlElement(ElementName = "water-storage")]
-		public WaterStorage WaterStorage { get; set; }
+		public ValueAttribute<Double> WaterStorage { get; set; }
 
 		[XmlElement(ElementName = "resource-storage")]
 		public ResourceStorage ResourceStorage { get; set; }
 
 		[XmlElement(ElementName = "laser-charge")]
-		public LaserCharge Lasercharge { get; set; }
+		public ValueAttribute<Double> Lasercharge { get; set; }
 
 		[XmlElement(ElementName = "links")]
 		public Links Links { get; set; }

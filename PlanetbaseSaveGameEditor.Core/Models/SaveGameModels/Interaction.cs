@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -16,13 +18,13 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public Selectable Selectable { get; set; }
 
 		[XmlElement(ElementName = "interaction-point")]
-		public InteractionPoint InteractionPoint { get; set; }
+		public ValueAttribute<String> InteractionPoint { get; set; }
 
 		[XmlElement(ElementName = "stage")]
-		public Stage Stage { get; set; }
+		public ValueAttribute<String> Stage { get; set; }
 
 		[XmlElement(ElementName = "stage-progress")]
-		public StageProgress StageProgress { get; set; }
+		public ValueAttribute<Double> StageProgress { get; set; }
 
 		[XmlElement(ElementName = "target")]
 		public Target Target { get; set; }

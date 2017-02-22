@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -6,15 +8,15 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Blizzard
 	{
 		[XmlElement(ElementName = "blizzard-in-progress")]
-		public BlizzardInProgress BlizzardInProgress { get; set; }
+		public BoolValueAttribute BlizzardInProgress { get; set; }
 
 		[XmlElement(ElementName = "time-to-next-blizzard")]
-		public TimeToNextBlizzard TimeToNextBlizzard { get; set; }
+		public ValueAttribute<Double> TimeToNextBlizzard { get; set; }
 
 		[XmlElement(ElementName = "time")]
-		public Time Time { get; set; }
+		public ValueAttribute<Double> Time { get; set; }
 
 		[XmlElement(ElementName = "blizzard-time")]
-		public BlizzardTime BlizzardTime { get; set; }
+		public ValueAttribute<Double> BlizzardTime { get; set; }
 	}
 }

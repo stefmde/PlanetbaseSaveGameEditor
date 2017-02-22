@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -6,15 +8,15 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Sandstorm
 	{
 		[XmlElement(ElementName = "sandstorm-in-progress")]
-		public SandstormInProgress SandstormInProgress { get; set; }
+		public BoolValueAttribute SandstormInProgress { get; set; }
 
 		[XmlElement(ElementName = "time-to-next-sandstorm")]
-		public TimeToNextSandstorm TimeToNextSandstorm { get; set; }
+		public ValueAttribute<Double> TimeToNextSandstorm { get; set; }
 
 		[XmlElement(ElementName = "time")]
-		public Time Time { get; set; }
+		public ValueAttribute<Double> Time { get; set; }
 
 		[XmlElement(ElementName = "sandstorm-time")]
-		public SandstormTime SandstormTime { get; set; }
+		public ValueAttribute<Double> SandstormTime { get; set; }
 	}
 }

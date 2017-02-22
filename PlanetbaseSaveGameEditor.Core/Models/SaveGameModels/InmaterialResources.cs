@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -6,7 +8,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class InmaterialResources
 	{
 		[XmlElement(ElementName = "container-name")]
-		public ContainerName Containername { get; set; }
+		public ValueAttribute<String> Containername { get; set; }
 
 		[XmlElement(ElementName = "amount")]
 		public Amount Amount { get; set; }

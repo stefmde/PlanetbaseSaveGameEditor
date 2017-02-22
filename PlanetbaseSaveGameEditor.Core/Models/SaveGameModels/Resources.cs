@@ -8,6 +8,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	{
 		[XmlElement(ElementName = "resource")]
 		public List<Resource> Resource { get; set; }
+
 		[XmlElement(ElementName = "inmaterial-resources")]
 		public InmaterialResources InmaterialResources { get; set; }
 	}

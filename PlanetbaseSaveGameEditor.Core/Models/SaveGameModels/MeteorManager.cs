@@ -1,4 +1,6 @@
-﻿using System.Xml.Serialization;
+﻿using System;
+using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -6,6 +8,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class MeteorManager
 	{
 		[XmlElement(ElementName = "seeds")]
-		public MeteorSeeds MeteorSeeds { get; set; }
+		public ValueAttribute<String> MeteorSeeds { get; set; }
 	}
 }

@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -10,7 +12,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public Position Position { get; set; }
 
 		[XmlElement(ElementName = "max-height")]
-		public MaxHeight MaxHeight { get; set; }
+		public ValueAttribute<Double> MaxHeight { get; set; }
 
 		[XmlElement(ElementName = "resource")]
 		public List<Resource> Resource { get; set; }

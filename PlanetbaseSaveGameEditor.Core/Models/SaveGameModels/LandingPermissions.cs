@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -6,27 +8,28 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class LandingPermissions
 	{
 		[XmlElement(ElementName = "colonists-allowed")]
-		public ColonistsAllowed ColonistsAllowed { get; set; }
+		public BoolValueAttribute ColonistsAllowed { get; set; }
 
 		[XmlElement(ElementName = "merchants-allowed")]
-		public MerchantsAllowed MerchantsAllowed { get; set; }
+		public BoolValueAttribute MerchantsAllowed { get; set; }
 
 		[XmlElement(ElementName = "visitors-allowed")]
-		public VisitorsAllowed VisitorsAllowed { get; set; }
+		public BoolValueAttribute VisitorsAllowed { get; set; }
+
 
 		[XmlElement(ElementName = "Worker-percentage")]
-		public WorkerPercentage WorkerPercentage { get; set; }
+		public ValueAttribute<Int32> WorkerPercentage { get; set; }
 
 		[XmlElement(ElementName = "Biologist-percentage")]
-		public BiologistPercentage BiologistPercentage { get; set; }
+		public ValueAttribute<Int32> BiologistPercentage { get; set; }
 
 		[XmlElement(ElementName = "Engineer-percentage")]
-		public EngineerPercentage EngineerPercentage { get; set; }
+		public ValueAttribute<Int32> EngineerPercentage { get; set; }
 
 		[XmlElement(ElementName = "Medic-percentage")]
-		public MedicPercentage MedicPercentage { get; set; }
+		public ValueAttribute<Int32> MedicPercentage { get; set; }
 
 		[XmlElement(ElementName = "Guard-percentage")]
-		public GuardPercentage GuardPercentage { get; set; }
+		public ValueAttribute<Int32> GuardPercentage { get; set; }
 	}
 }

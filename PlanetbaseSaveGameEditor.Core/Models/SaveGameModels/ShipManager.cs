@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -10,16 +12,16 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 
 
 		[XmlElement(ElementName = "time-since-last-colonist-landing")]
-		public TimeSinceLastColonistLanding TimeSinceLastColonistLanding { get; set; }
+		public ValueAttribute<Double> TimeSinceLastColonistLanding { get; set; }
 
 		[XmlElement(ElementName = "time-since-last-visitor-landing")]
-		public TimeSinceLastVisitorLanding TimeSinceLastVisitorLanding { get; set; }
+		public ValueAttribute<Double> TimeSinceLastVisitorLanding { get; set; }
 
 		[XmlElement(ElementName = "time-since-last-merchant-landing")]
-		public TimeSinceLastMerchantLanding TimeSinceLastMerchantLanding { get; set; }
+		public ValueAttribute<Double> TimeSinceLastMerchantLanding { get; set; }
 
 		[XmlElement(ElementName = "time-to-next-intruder")]
-		public TimeToNextIntruder TimeToNextIntruder { get; set; }
+		public ValueAttribute<Double> TimeToNextIntruder { get; set; }
 
 		[XmlElement(ElementName = "landing-permissions")]
 		public LandingPermissions LandingPermissions { get; set; }

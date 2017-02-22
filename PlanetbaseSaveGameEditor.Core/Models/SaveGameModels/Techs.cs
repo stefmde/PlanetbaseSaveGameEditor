@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -7,6 +9,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Techs
 	{
 		[XmlElement(ElementName = "tech")]
-		public List<Tech> Tech { get; set; }
+		public List<ValueAttribute<String>> Tech { get; set; }
 	}
 }

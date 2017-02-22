@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -10,9 +12,9 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 
 
 		[XmlElement(ElementName = "type-name")]
-		public TypeName TypeName { get; set; }
+		public ValueAttribute<String> TypeName { get; set; }
 
 		[XmlElement(ElementName = "counts")]
-		public Counts Counts { get; set; }
+		public ValueAttribute<String> Counts { get; set; }
 	}
 }

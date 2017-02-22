@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -10,10 +12,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 
 
 		[XmlElement(ElementName = "id")]
-		public Id Id { get; set; }
+		public ValueAttribute<Int32> Id { get; set; }
 
 		[XmlElement(ElementName = "trader-id")]
-		public TraderId Traderid { get; set; }
+		public ValueAttribute<Int32> Traderid { get; set; }
 
 		[XmlElement(ElementName = "position")]
 		public Position Position { get; set; }
@@ -22,18 +24,18 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public Orientation Orientation { get; set; }
 
 		[XmlElement(ElementName = "state")]
-		public State State { get; set; }
+		public ValueAttribute<Int32> State { get; set; }
 
 		[XmlElement(ElementName = "location")]
-		public Location Location { get; set; }
+		public ValueAttribute<Int32> Location { get; set; }
 
 		[XmlElement(ElementName = "subtype")]
-		public Subtype Subtype { get; set; }
+		public ValueAttribute<Int32> Subtype { get; set; }
 
 		[XmlElement(ElementName = "condition")]
-		public Condition Condition { get; set; }
+		public ValueAttribute<Double> Condition { get; set; }
 
 		[XmlElement(ElementName = "durability")]
-		public Durability Durability { get; set; }
+		public ValueAttribute<Double> Durability { get; set; }
 	}
 }

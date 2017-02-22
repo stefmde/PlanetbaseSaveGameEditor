@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -7,7 +9,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class ResourceContainer
 	{
 		[XmlElement(ElementName = "capacity")]
-		public Capacity Capacity { get; set; }
+		public ValueAttribute<Int32> Capacity { get; set; }
 
 		[XmlElement(ElementName = "resource")]
 		public List<Resource> Resource { get; set; }

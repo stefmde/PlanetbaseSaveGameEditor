@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -6,15 +8,15 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class SolarFlare
 	{
 		[XmlElement(ElementName = "solar-flare-in-progress")]
-		public SolarFlareInProgress SolarFlareInProgress { get; set; }
+		public BoolValueAttribute SolarFlareInProgress { get; set; }
 
 		[XmlElement(ElementName = "time-to-next-solar-flare")]
-		public TimeToNextSolarflare TimeToNextSolarflare { get; set; }
+		public ValueAttribute<Double> TimeToNextSolarflare { get; set; }
 
 		[XmlElement(ElementName = "time")]
-		public Time Time { get; set; }
+		public ValueAttribute<Double> Time { get; set; }
 
 		[XmlElement(ElementName = "solar-flare-time")]
-		public SolarFlareTime SolarFlareTime { get; set; }
+		public ValueAttribute<Double> SolarFlareTime { get; set; }
 	}
 }

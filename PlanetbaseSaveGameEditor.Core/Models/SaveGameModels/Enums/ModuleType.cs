@@ -1,15 +1,6 @@
-using System.Xml.Serialization;
-
-namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
+namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums
 {
-	[XmlRoot(ElementName = "module-type")]
-	public class ModuleType
-	{
-		[XmlAttribute(AttributeName = "value")]
-		public ModuleTypeType Value { get; set; }
-	}
-
-	public enum ModuleTypeType
+	public enum ModuleType
 	{
 		Unknown,
 		ModuleTypeDorm,

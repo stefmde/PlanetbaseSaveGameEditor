@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -6,6 +8,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class GameHints
 	{
 		[XmlElement(ElementName = "shown-hints")]
-		public ShownHints ShownHints { get; set; }
+		public ValueAttribute<String> ShownHints { get; set; }
 	}
 }

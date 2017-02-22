@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -6,7 +8,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Camera
 	{
 		[XmlElement(ElementName = "height")]
-		public Height Height { get; set; }
+		public ValueAttribute<Int32> Height { get; set; }
 
 		[XmlElement(ElementName = "position")]
 		public Position Position { get; set; }

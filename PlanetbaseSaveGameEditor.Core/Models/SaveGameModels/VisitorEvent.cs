@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -10,6 +12,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 
 
 		[XmlElement(ElementName = "visitor-count")]
-		public VisitorCount VisitorCount { get; set; }
+		public ValueAttribute<Int32> VisitorCount { get; set; }
 	}
 }

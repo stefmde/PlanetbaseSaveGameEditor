@@ -3,6 +3,15 @@ using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels;
 
 namespace PlanetbaseSaveGameEditor.Core.Models
 {
+	// Original                        -> After Serialization
+	// <power-storage value="2E+07" /> -> <power-storage value="20000000" />
+	// Same for water?
+	// <screenshot><![CDATA[/9j/4AAQS
+
+
+
+
+
 	[XmlRoot(ElementName = "save-game")]
 	public class SaveGame
 	{

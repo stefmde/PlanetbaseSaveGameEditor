@@ -1,4 +1,7 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -16,96 +19,91 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public Orientation Orientation { get; set; }
 
 		[XmlElement(ElementName = "location")]
-		public Location Location { get; set; }
+		public ValueAttribute<Int32> Location { get; set; }
 
 		[XmlElement(ElementName = "name")]
-		public Name Name { get; set; }
+		public ValueAttribute<String> Name { get; set; }
 
 		[XmlElement(ElementName = "specialization")]
-		public Specialization Specialization { get; set; }
+		public ValueAttribute<SpecializationType> Specialization { get; set; }
 
 		[XmlElement(ElementName = "status-flags")]
-		public StatusFlags StatusFlags { get; set; }
+		public ValueAttribute<String> StatusFlags { get; set; }
 
 		[XmlElement(ElementName = "state")]
-		public State State { get; set; }
+		public ValueAttribute<Double> State { get; set; }
 
 		[XmlElement(ElementName = "id")]
-		public Id Id { get; set; }
+		public ValueAttribute<Int32> Id { get; set; }
+
+
 
 		[XmlElement(ElementName = "wander-time")]
-		public WanderTime WanderTime { get; set; }
+		public ValueAttribute<Double> WanderTime { get; set; }
 
 		[XmlElement(ElementName = "Health")]
-		public Health Health { get; set; }
+		public ValueAttribute<Double> Health { get; set; }
 
 		[XmlElement(ElementName = "Nutrition")]
-		public Nutrition Nutrition { get; set; }
+		public ValueAttribute<Double> Nutrition { get; set; }
 
 		[XmlElement(ElementName = "Hydration")]
-		public Hydration Hydration { get; set; }
+		public ValueAttribute<Double> Hydration { get; set; }
 
 		[XmlElement(ElementName = "Oxygen")]
-		public Oxygen Oxygen { get; set; }
+		public ValueAttribute<Double> Oxygen { get; set; }
 
 		[XmlElement(ElementName = "Sleep")]
-		public Sleep Sleep { get; set; }
+		public ValueAttribute<Double> Sleep { get; set; }
 
 		[XmlElement(ElementName = "Morale")]
-		public Morale Morale { get; set; }
+		public ValueAttribute<Double> Morale { get; set; }
 
 		[XmlElement(ElementName = "gender")]
-		public Gender Gender { get; set; }
+		public ValueAttribute<Int32> Gender { get; set; }
 
 		[XmlElement(ElementName = "basic-meal-count")]
-		public BasicMealCount BasicMealCount { get; set; }
+		public ValueAttribute<Int32> BasicMealCount { get; set; }
 
 		[XmlElement(ElementName = "head-index")]
-		public HeadIndex HeadIndex { get; set; }
+		public ValueAttribute<Int32> HeadIndex { get; set; }
 
 		[XmlElement(ElementName = "skin-color-index")]
-		public SkinColorIndex SkinColorIndex { get; set; }
+		public ValueAttribute<Int32> SkinColorIndex { get; set; }
 
 		[XmlElement(ElementName = "hair-color-index")]
-		public HairColorIndex HairColorIndex { get; set; }
+		public ValueAttribute<Int32> HairColorIndex { get; set; }
 
 		[XmlElement(ElementName = "doctor")]
-		public Doctor Doctor { get; set; }
+		public BoolValueAttribute Doctor { get; set; }
 
 		[XmlElement(ElementName = "inmunity-to-contagion-time")]
-		public InmunityToContagionTime InmunityToContagionTime { get; set; }
+		public ValueAttribute<Double> InmunityToContagionTime { get; set; }
 
 		[XmlElement(ElementName = "Condition")]
-		public CharacterCondition CharacterCondition { get; set; }
+		public ValueAttribute<Double> CharacterCondition { get; set; }
 
 		[XmlElement(ElementName = "Integrity")]
-		public Integrity Integrity { get; set; }
+		public ValueAttribute<Double> Integrity { get; set; }
 
 		[XmlElement(ElementName = "integrity-decay-rate")]
-		public IntegrityDecayRate IntegrityDecayRate { get; set; }
+		public ValueAttribute<Double> IntegrityDecayRate { get; set; }
 
 		[XmlElement(ElementName = "fee")]
-		public Fee Fee { get; set; }
+		public ValueAttribute<Int32> Fee { get; set; }
 
 		[XmlElement(ElementName = "prestige")]
-		public Prestige Prestige { get; set; }
+		public ValueAttribute<Int32> Prestige { get; set; }
 
 		[XmlElement(ElementName = "agression-time")]
-		public AgressionTime AgressionTime { get; set; }
+		public ValueAttribute<Double> AgressionTime { get; set; }
 
 		[XmlElement(ElementName = "owned-ship-id")]
-		public OwnedShipId OwnedShipId { get; set; }
+		public ValueAttribute<Int32> OwnedShipId { get; set; }
 
 		[XmlElement(ElementName = "loaded-resource")]
-		public LoadedResource LoadedResource { get; set; }
+		public ValueAttribute<Int32> LoadedResource { get; set; }
 	}
 
-	public enum CharacterType
-	{
-		Unknown,
-		Colonist,
-		Guest,
-		Bot,
-		Intruder
-	}
+	
 }

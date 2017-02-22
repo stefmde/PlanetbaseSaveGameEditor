@@ -1,12 +1,18 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
 	[XmlRoot(ElementName = "ship")]
 	public class Ship
 	{
+		[XmlAttribute(AttributeName = "type")]
+		public string Type { get; set; }
+
+
 		[XmlElement(ElementName = "id")]
-		public Id Id { get; set; }
+		public ValueAttribute<Int32> Id { get; set; }
 
 		[XmlElement(ElementName = "position")]
 		public Position Position { get; set; }
@@ -15,13 +21,13 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public Orientation Orientation { get; set; }
 
 		[XmlElement(ElementName = "state-time")]
-		public StateTime StateTime { get; set; }
+		public ValueAttribute<Double> StateTime { get; set; }
 
 		[XmlElement(ElementName = "state")]
-		public State State { get; set; }
+		public ValueAttribute<Double> State { get; set; }
 
 		[XmlElement(ElementName = "target-module")]
-		public TargetModule TargetModule { get; set; }
+		public ValueAttribute<Int32> TargetModule { get; set; }
 
 		[XmlElement(ElementName = "original-rotation")]
 		public OriginalRotation OriginalRotation { get; set; }
@@ -30,30 +36,27 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public FinalRotation FinalRotation { get; set; }
 
 		[XmlElement(ElementName = "size")]
-		public Size Size { get; set; }
+		public ValueAttribute<Int32> Size { get; set; }
 
 		[XmlElement(ElementName = "intruders")]
-		public Intruders Intruders { get; set; }
+		public BoolValueAttribute Intruders { get; set; }
 
 		[XmlElement(ElementName = "velocity")]
 		public Velocity Velocity { get; set; }
 
 		[XmlElement(ElementName = "visitor-event-name")]
-		public VisitorEventName Visitoreventname { get; set; }
+		public ValueAttribute<String> Visitoreventname { get; set; }
 
 		[XmlElement(ElementName = "ship-type")]
-		public ShipType ShipType { get; set; }
+		public ValueAttribute<Int32> ShipType { get; set; }
 
 		[XmlElement(ElementName = "pending-visitors")]
-		public PendingVisitors PendingVisitors { get; set; }
+		public ValueAttribute<Int32> PendingVisitors { get; set; }
 
 		[XmlElement(ElementName = "fee")]
-		public Fee Fee { get; set; }
+		public ValueAttribute<Int32> Fee { get; set; }
 
 		[XmlElement(ElementName = "prestige")]
-		public Prestige Prestige { get; set; }
-
-		[XmlAttribute(AttributeName = "type")]
-		public string Type { get; set; }
+		public ValueAttribute<Int32> Prestige { get; set; }
 	}
 }

@@ -1,14 +1,5 @@
-using System.Xml.Serialization;
-
-namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
+﻿namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums
 {
-	[XmlRoot(ElementName = "component-type")]
-	public class ComponentType
-	{
-		[XmlAttribute(AttributeName = "value")]
-		public ComponentTypeType Value { get; set; }
-	}
-
 	public enum ComponentTypeType
 	{
 		Unknown,
@@ -54,11 +45,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		GmTomatoPad,
 		LettucePad,
 		PeaPad,
-		TableSmall,
-
-
-
-
-
+		TableSmall
 	}
 }

@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -6,6 +8,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Terrain
 	{
 		[XmlElement(ElementName = "seed")]
-		public Seed Seed { get; set; }
+		public ValueAttribute<Int32> Seed { get; set; }
 	}
 }

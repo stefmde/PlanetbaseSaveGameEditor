@@ -1,4 +1,6 @@
+using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -6,9 +8,9 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Environment
 	{
 		[XmlElement(ElementName = "time-of-day")]
-		public TimeOfDay TimeOfDay { get; set; }
+		public ValueAttribute<Double> TimeOfDay { get; set; }
 
 		[XmlElement(ElementName = "wind-indicator")]
-		public WindIndicator WindIndicator { get; set; }
+		public ValueAttribute<Double> WindIndicator { get; set; }
 	}
 }

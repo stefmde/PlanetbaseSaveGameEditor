@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
@@ -7,6 +9,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class ConstructionMaterials
 	{
 		[XmlElement(ElementName = "id")]
-		public List<Id> Id { get; set; }
+		public List<ValueAttribute<Int32>> Id { get; set; }
 	}
 }

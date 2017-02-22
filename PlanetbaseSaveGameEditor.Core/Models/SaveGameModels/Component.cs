@@ -1,26 +1,34 @@
+using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 {
 	[XmlRoot(ElementName = "component")]
 	public class Component
 	{
+		[XmlAttribute(AttributeName = "type")]
+		public string Type { get; set; }
+
+
 		[XmlElement(ElementName = "enabled")]
-		public List<Enabled> Enabled { get; set; }
+		public List<BoolValueAttribute> Enabled { get; set; }
 
 		[XmlElement(ElementName = "state")]
-		public State State { get; set; }
+		public ValueAttribute<Int32> State { get; set; }
 
 		[XmlElement(ElementName = "build-progress")]
-		public BuildProgress BuildProgress { get; set; }
+		public ValueAttribute<Double> BuildProgress { get; set; }
 
 		[XmlElement(ElementName = "id")]
-		public Id Id { get; set; }
+		public ValueAttribute<Int32> Id { get; set; }
 
 		[XmlElement(ElementName = "component-type")]
-		public ComponentType ComponentType { get; set; }
+		public ValueAttribute<ComponentTypeType> ComponentType { get; set; }
 
+		// TODO: Merge those three cordinate classes in one?
 		[XmlElement(ElementName = "position")]
 		public Position Position { get; set; }
 
@@ -28,19 +36,16 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public Orientation Orientation { get; set; }
 
 		[XmlElement(ElementName = "condition")]
-		public Condition Condition { get; set; }
+		public ValueAttribute<Double> Condition { get; set; }
 
 		[XmlElement(ElementName = "production-progress")]
-		public ProductionProgress ProductionProgress { get; set; }
+		public ValueAttribute<Double> ProductionProgress { get; set; }
 
 		[XmlElement(ElementName = "time")]
-		public Time Time { get; set; }
+		public ValueAttribute<Double> Time { get; set; }
 
 		[XmlElement(ElementName = "produced-item-index")]
-		public ProducedItemIndex ProducedItemIndex { get; set; }
-
-		[XmlAttribute(AttributeName = "type")]
-		public string Type { get; set; }
+		public ValueAttribute<Int32> ProducedItemIndex { get; set; }
 
 		[XmlElement(ElementName = "resource-container")]
 		public ResourceContainer ResourceContainer { get; set; }
@@ -52,10 +57,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		public ConstructionMaterials ConstructionMaterials { get; set; }
 
 		[XmlElement(ElementName = "size-index")]
-		public SizeIndex SizeIndex { get; set; }
+		public ValueAttribute<Int32> SizeIndex { get; set; }
 
 		[XmlElement(ElementName = "module-type")]
-		public ModuleType ModuleType { get; set; }
+		public ValueAttribute<ModuleType> ModuleType { get; set; }
 	}
 
 }
