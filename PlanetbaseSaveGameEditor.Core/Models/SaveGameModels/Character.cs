@@ -104,6 +104,4 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 		[XmlElement(ElementName = "loaded-resource")]
 		public ValueAttribute<Int32> LoadedResource { get; set; }
 	}
-
-	
 }

@@ -42,6 +42,12 @@
   <ItemGroup>
     <Compile Include="Models\SaveGameModels\Attributes\BoolValueAttribute.cs" />
     <Compile Include="Models\SaveGameModels\Cdata.cs" />
+    <Compile Include="Models\SaveGameModels\CharacterModels\BaseCharacter.cs" />
+    <Compile Include="Models\SaveGameModels\CharacterModels\BotCharacter.cs" />
+    <Compile Include="Models\SaveGameModels\CharacterModels\GuestCharacter.cs" />
+    <Compile Include="Models\SaveGameModels\CharacterModels\HumanCharacter.cs" />
+    <Compile Include="Models\SaveGameModels\Enums\HumanConditionType.cs" />
+    <Compile Include="Models\SaveGameModels\HumanCondition.cs" />
     <Compile Include="Models\SaveGameModels\Coordinates.cs" />
     <Compile Include="Models\SaveGameModels\Enums\CharacterType.cs" />
     <Compile Include="Models\SaveGameModels\Enums\ComponentType.cs" />

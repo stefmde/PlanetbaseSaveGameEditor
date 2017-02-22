@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums
 {
-	/// <summary>
-	/// Intruder is a specialization that a guest can have
-	/// </summary>
-	public enum CharacterType
+	public enum HumanConditionType
 	{
 		Unknown,
-		Colonist,
-		Guest,
-		Bot
+		ConditionCombatWounds
 	}
 }

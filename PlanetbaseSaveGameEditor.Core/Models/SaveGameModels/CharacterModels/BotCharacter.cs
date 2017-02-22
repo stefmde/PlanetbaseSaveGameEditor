@@ -11,7 +11,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 	public class BotCharacter : BaseCharacter
 	{
 		[XmlElement(ElementName = "Condition")]
-		public ValueAttribute<Double> CharacterCondition { get; set; }
+		public ValueAttribute<Double> Condition { get; set; }
 
 		[XmlElement(ElementName = "Integrity")]
 		public ValueAttribute<Double> Integrity { get; set; }

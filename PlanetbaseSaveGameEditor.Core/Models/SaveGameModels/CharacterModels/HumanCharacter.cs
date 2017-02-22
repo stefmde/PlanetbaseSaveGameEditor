@@ -45,5 +45,8 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 
 		[XmlElement(ElementName = "doctor")]
 		public BoolValueAttribute Doctor { get; set; }
+
+		[XmlElement(ElementName = "condition")]
+		public HumanCondition Condition { get; set; }
 	}
 }
