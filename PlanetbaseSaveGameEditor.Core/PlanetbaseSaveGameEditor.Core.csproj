@@ -47,6 +47,7 @@
     <Compile Include="Models\SaveGameModels\CharacterModels\GuestCharacter.cs" />
     <Compile Include="Models\SaveGameModels\CharacterModels\HumanCharacter.cs" />
     <Compile Include="Models\SaveGameModels\Enums\HumanConditionType.cs" />
+    <Compile Include="Models\SaveGameModels\Enums\ShipType.cs" />
     <Compile Include="Models\SaveGameModels\HumanCondition.cs" />
     <Compile Include="Models\SaveGameModels\Coordinates.cs" />
     <Compile Include="Models\SaveGameModels\Enums\CharacterType.cs" />

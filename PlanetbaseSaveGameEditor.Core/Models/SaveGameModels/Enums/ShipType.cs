@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums
 {
-	public enum HumanConditionType
+	public enum ShipType
 	{
 		Unknown,
-		ConditionCombatWounds,
-		ConditionTraumaInjuries
+		ColonyShip,
+		VisitorShip,
+		MerchantShip
 	}
 }

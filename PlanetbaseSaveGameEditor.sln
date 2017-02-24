@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SaveGame Samples", "SaveGam
 	ProjectSection(SolutionItems) = preProject
 		Solution Items\SaveGame Samples\auto1.sav = Solution Items\SaveGame Samples\auto1.sav
 		Solution Items\SaveGame Samples\quick2.sav = Solution Items\SaveGame Samples\quick2.sav
+		..\..\..\Planetbase\Saves\quick3.sav = ..\..\..\Planetbase\Saves\quick3.sav
 		Solution Items\SaveGame Samples\save17.sav = Solution Items\SaveGame Samples\save17.sav
 		Solution Items\SaveGame Samples\save2.sav = Solution Items\SaveGame Samples\save2.sav
 		Solution Items\SaveGame Samples\save9.sav = Solution Items\SaveGame Samples\save9.sav

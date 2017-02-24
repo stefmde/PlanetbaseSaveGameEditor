@@ -1,0 +1,1306 @@
+<save-game version="11">
+  <id-generator>
+    <next-id value="92" />
+    <next-bot-id value="1" />
+  </id-generator>
+  <planet>
+    <planet-index value="2" />
+  </planet>
+  <milestones />
+  <techs />
+  <environment>
+    <time-of-day value="0.1164414" />
+    <wind-indicator value="0" />
+  </environment>
+  <terrain>
+    <seed value="-59000" />
+  </terrain>
+  <camera>
+    <height value="21" />
+    <position x="1058.5" y="21" z="1153.2" />
+    <orientation x="25" y="180" z="0" />
+  </camera>
+  <sandstorm>
+    <sandstorm-in-progress value="False" />
+    <time-to-next-sandstorm value="3821.122" />
+    <time value="0" />
+    <sandstorm-time value="0" />
+  </sandstorm>
+  <blizzard>
+    <blizzard-in-progress value="False" />
+    <time-to-next-blizzard value="3177.792" />
+    <time value="0" />
+    <blizzard-time value="0" />
+  </blizzard>
+  <solar-flare>
+    <solar-flare-in-progress value="False" />
+    <time-to-next-solar-flare value="4202.599" />
+    <time value="0" />
+    <solar-flare-time value="0" />
+  </solar-flare>
+  <colony>
+    <extra-prestige value="0" />
+    <game-time value="29.839999333024" />
+    <real-game-time value="29.839999333024" />
+    <name value="Basis M74" />
+    <latitude value="0" />
+    <longitude value="-59" />
+  </colony>
+  <ship-manager type="ship-manager">
+    <time-since-last-colonist-landing value="14.7836" />
+    <time-since-last-visitor-landing value="0" />
+    <time-since-last-merchant-landing value="29.5672" />
+    <time-to-next-intruder value="4200" />
+    <landing-permissions>
+      <colonists-allowed value="True" />
+      <merchants-allowed value="True" />
+      <visitors-allowed value="True" />
+      <Worker-percentage value="40" />
+      <Biologist-percentage value="30" />
+      <Engineer-percentage value="20" />
+      <Medic-percentage value="10" />
+      <Guard-percentage value="0" />
+    </landing-permissions>
+  </ship-manager>
+  <stats>
+    <counter type="Vegetables">
+      <type-name value="Vegetables" />
+      <counts value="" />
+    </counter>
+    <counter type="Vitromeat">
+      <type-name value="Vitromeat" />
+      <counts value="" />
+    </counter>
+    <counter type="Meal">
+      <type-name value="Meal" />
+      <counts value="20 " />
+    </counter>
+    <counter type="AlcoholicDrink">
+      <type-name value="AlcoholicDrink" />
+      <counts value="" />
+    </counter>
+    <counter type="Ore">
+      <type-name value="Ore" />
+      <counts value="" />
+    </counter>
+    <counter type="Metal">
+      <type-name value="Metal" />
+      <counts value="30 " />
+    </counter>
+    <counter type="Starch">
+      <type-name value="Starch" />
+      <counts value="" />
+    </counter>
+    <counter type="Bioplastic">
+      <type-name value="Bioplastic" />
+      <counts value="25 " />
+    </counter>
+    <counter type="MedicinalPlants">
+      <type-name value="MedicinalPlants" />
+      <counts value="" />
+    </counter>
+    <counter type="MedicalSupplies">
+      <type-name value="MedicalSupplies" />
+      <counts value="5 " />
+    </counter>
+    <counter type="Spares">
+      <type-name value="Spares" />
+      <counts value="5 " />
+    </counter>
+    <counter type="Semiconductors">
+      <type-name value="Semiconductors" />
+      <counts value="" />
+    </counter>
+    <counter type="Gun">
+      <type-name value="Gun" />
+      <counts value="" />
+    </counter>
+    <counter type="Coins">
+      <type-name value="Coins" />
+      <counts value="" />
+    </counter>
+    <counter type="Worker">
+      <type-name value="Worker" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Biologist">
+      <type-name value="Biologist" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Engineer">
+      <type-name value="Engineer" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Medic">
+      <type-name value="Medic" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Guard">
+      <type-name value="Guard" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Visitor">
+      <type-name value="Visitor" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Intruder">
+      <type-name value="Intruder" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Carrier">
+      <type-name value="Carrier" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Constructor">
+      <type-name value="Constructor" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Driller">
+      <type-name value="Driller" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Colonist">
+      <type-name value="Colonist" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Bot">
+      <type-name value="Bot" />
+      <counts value="0 " />
+    </counter>
+    <counter type="Guest">
+      <type-name value="Guest" />
+      <counts value="0 " />
+    </counter>
+    <counter type="PowerBalance">
+      <type-name value="PowerBalance" />
+      <counts value="0 " />
+    </counter>
+    <counter type="WaterBalance">
+      <type-name value="WaterBalance" />
+      <counts value="0 " />
+    </counter>
+    <counter type="OxygenBalance">
+      <type-name value="OxygenBalance" />
+      <counts value="0 " />
+    </counter>
+    <counter type="PowerStorage">
+      <type-name value="PowerStorage" />
+      <counts value="0 " />
+    </counter>
+    <counter type="WaterStorage">
+      <type-name value="WaterStorage" />
+      <counts value="0 " />
+    </counter>
+  </stats>
+  <visitor-events>
+    <next-event-time value="870.1309" />
+    <visitor-event type="VisitorEventInjuredMiners">
+      <visitor-count value="8" />
+    </visitor-event>
+  </visitor-events>
+  <game-hints>
+    <shown-hints value="" />
+  </game-hints>
+  <meteor-manager>
+    <seeds value="730035177 190430599 1251381007 1485341348 1358938373 697217919 92631624 539632662 476371750 417230060 2012907614 54464407 1008249668 772101132 1598143288 1765216655 794942198 150574706 584056600 125630510 1134982364 1104957428 938658225 1507545878 1871746314 1769644600 510584230 1197580814 978997037 1250026362" />
+  </meteor-manager>
+  <manufacture-limits>
+    <bot-limit value="2147483647" />
+    <MedicalSupplies-limit value="2147483647" />
+    <Spares-limit value="2147483647" />
+    <Semiconductors-limit value="2147483647" />
+    <Gun-limit value="2147483647" />
+  </manufacture-limits>
+  <challenge-manager />
+  <constructions />
+  <characters>
+    <character type="Colonist">
+      <position x="1063.217" y="0.0001267277" z="1126.966" />
+      <orientation x="0" y="28.0006" z="0" />
+      <location value="1" />
+      <name value="C.R. Anderson" />
+      <specialization value="Worker" />
+      <status-flags value="0" />
+      <state value="0" />
+      <id value="86" />
+      <wander-time value="15.36" />
+      <Health value="1" />
+      <Nutrition value="1" />
+      <Hydration value="1" />
+      <Oxygen value="0.9680002" />
+      <Sleep value="1" />
+      <Morale value="1" />
+      <gender value="0" />
+      <basic-meal-count value="0" />
+      <head-index value="11" />
+      <skin-color-index value="1" />
+      <hair-color-index value="0" />
+      <doctor value="False" />
+      <inmunity-to-contagion-time value="0" />
+    </character>
+    <character type="Colonist">
+      <position x="1058.377" y="0.0001905972" z="1127.402" />
+      <orientation x="0" y="357.4251" z="0" />
+      <location value="1" />
+      <name value="Juno Simon" />
+      <specialization value="Worker" />
+      <status-flags value="0" />
+      <state value="0" />
+      <id value="87" />
+      <wander-time value="14.08" />
+      <Health value="1" />
+      <Nutrition value="1" />
+      <Hydration value="1" />
+      <Oxygen value="0.9706668" />
+      <Sleep value="1" />
+      <Morale value="1" />
+      <gender value="1" />
+      <basic-meal-count value="0" />
+      <head-index value="13" />
+      <skin-color-index value="1" />
+      <hair-color-index value="0" />
+      <doctor value="False" />
+      <inmunity-to-contagion-time value="0" />
+    </character>
+    <character type="Colonist">
+      <position x="1054.921" y="0.0003466311" z="1127.602" />
+      <orientation x="0" y="2.498693" z="0" />
+      <location value="1" />
+      <name value="Dr. K.V. Bergman" />
+      <specialization value="Biologist" />
+      <status-flags value="0" />
+      <state value="0" />
+      <id value="88" />
+      <wander-time value="12.8" />
+      <Health value="1" />
+      <Nutrition value="1" />
+      <Hydration value="1" />
+      <Oxygen value="0.9733335" />
+      <Sleep value="1" />
+      <Morale value="1" />
+      <gender value="1" />
+      <basic-meal-count value="0" />
+      <head-index value="6" />
+      <skin-color-index value="7" />
+      <hair-color-index value="1" />
+      <doctor value="True" />
+      <inmunity-to-contagion-time value="0" />
+    </character>
+    <character type="Colonist">
+      <position x="1061.849" y="0.001760872" z="1122.96" />
+      <orientation x="0" y="358.4722" z="0" />
+      <location value="1" />
+      <name value="Karl Boyer" />
+      <specialization value="Engineer" />
+      <status-flags value="0" />
+      <state value="0" />
+      <id value="89" />
+      <wander-time value="11.52" />
+      <Health value="1" />
+      <Nutrition value="1" />
+      <Hydration value="1" />
+      <Oxygen value="0.9760001" />
+      <Sleep value="1" />
+      <Morale value="1" />
+      <gender value="0" />
+      <basic-meal-count value="0" />
+      <head-index value="7" />
+      <skin-color-index value="3" />
+      <hair-color-index value="4" />
+      <doctor value="True" />
+      <inmunity-to-contagion-time value="0" />
+    </character>
+    <character type="Colonist">
+      <position x="1058.842" y="0.001814621" z="1123.405" />
+      <orientation x="0" y="5.124933" z="0" />
+      <location value="1" />
+      <name value="M.D. Bergman" />
+      <specialization value="Medic" />
+      <status-flags value="0" />
+      <state value="0" />
+      <id value="90" />
+      <wander-time value="10.24" />
+      <Health value="1" />
+      <Nutrition value="1" />
+      <Hydration value="1" />
+      <Oxygen value="0.9786668" />
+      <Sleep value="1" />
+      <Morale value="1" />
+      <gender value="0" />
+      <basic-meal-count value="0" />
+      <head-index value="4" />
+      <skin-color-index value="1" />
+      <hair-color-index value="3" />
+      <doctor value="False" />
+      <inmunity-to-contagion-time value="0" />
+    </character>
+    <character type="Bot">
+      <position x="1054.648" y="0.002324705" z="1123.94" />
+      <orientation x="0" y="352.4" z="0" />
+      <location value="1" />
+      <name value="CR-1" />
+      <specialization value="Carrier" />
+      <status-flags value="0" />
+      <state value="0" />
+      <id value="91" />
+      <wander-time value="8.959999" />
+      <Condition value="1" />
+      <Integrity value="0.9991322" />
+      <integrity-decay-rate value="10323.52" />
+    </character>
+  </characters>
+  <resources>
+    <inmaterial-resources>
+      <container-name value="" />
+    </inmaterial-resources>
+  </resources>
+  <ships>
+    <ship type="ColonyShip">
+      <id value="0" />
+      <position x="1058.5" y="0" z="1108.2" />
+      <orientation x="0.0008707831" y="0.0005224698" z="0.0003483132" />
+      <target-position x="1058.5" y="0" z="1108.2" />
+      <state value="5" />
+      <resource-container>
+        <capacity value="150" />
+        <resource type="Metal">
+          <id value="1" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="2" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="3" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="4" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="5" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="6" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="7" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="8" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="9" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="10" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="11" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="12" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="13" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="14" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="15" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="16" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="17" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="18" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="19" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="20" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="21" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="22" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="23" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="24" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="25" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="26" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="27" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="28" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="29" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Metal">
+          <id value="30" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="31" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="32" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="33" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="34" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="35" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="36" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="37" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="38" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="39" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="40" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="41" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="42" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="43" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="44" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="45" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="46" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="47" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="48" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="49" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="50" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="51" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="52" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="53" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="54" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Bioplastic">
+          <id value="55" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="56" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="57" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="58" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="59" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="60" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="61" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="62" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="63" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="64" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="65" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="66" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="67" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="68" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="69" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="70" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="71" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="72" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="73" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="74" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Meal">
+          <id value="75" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="13" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Spares">
+          <id value="76" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Spares">
+          <id value="77" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Spares">
+          <id value="78" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Spares">
+          <id value="79" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="Spares">
+          <id value="80" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="MedicalSupplies">
+          <id value="81" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="MedicalSupplies">
+          <id value="82" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="MedicalSupplies">
+          <id value="83" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="MedicalSupplies">
+          <id value="84" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+        <resource type="MedicalSupplies">
+          <id value="85" />
+          <trader-id value="-1" />
+          <position x="1058.5" y="0" z="1108.2" />
+          <orientation x="0" y="0" z="0" />
+          <state value="0" />
+          <location value="1" />
+          <subtype value="0" />
+          <condition value="1" />
+          <durability value="1" />
+        </resource>
+      </resource-container>
+    </ship>
+  </ships>
+  <interactions />
+  <screenshot><![CDATA[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]]></screenshot>
+</save-game>
