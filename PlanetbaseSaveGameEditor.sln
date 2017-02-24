@@ -13,11 +13,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SaveGame Samples", "SaveGam
 	ProjectSection(SolutionItems) = preProject
 		Solution Items\SaveGame Samples\auto1.sav = Solution Items\SaveGame Samples\auto1.sav
 		Solution Items\SaveGame Samples\quick2.sav = Solution Items\SaveGame Samples\quick2.sav
-		..\..\..\Planetbase\Saves\quick3.sav = ..\..\..\Planetbase\Saves\quick3.sav
+		Solution Items\SaveGame Samples\quick3.sav = Solution Items\SaveGame Samples\quick3.sav
 		Solution Items\SaveGame Samples\save17.sav = Solution Items\SaveGame Samples\save17.sav
 		Solution Items\SaveGame Samples\save2.sav = Solution Items\SaveGame Samples\save2.sav
 		Solution Items\SaveGame Samples\save9.sav = Solution Items\SaveGame Samples\save9.sav
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Object Samples", "Object Samples", "{770D5D13-84F0-46B8-BA7B-8F40BF1B0964}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Object Samples\Ship-Samples.xml = Solution Items\Object Samples\Ship-Samples.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetbaseSaveGameEditor.TestWinForm", "PlanetbaseSaveGameEditor.TestWinForm\PlanetbaseSaveGameEditor.TestWinForm.csproj", "{7F4BB907-3699-46D0-8C07-AF0F82B4732B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,11 +40,16 @@ Global
 		{B4754FE7-8566-4290-86FD-85A9921FC0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4754FE7-8566-4290-86FD-85A9921FC0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4754FE7-8566-4290-86FD-85A9921FC0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4BB907-3699-46D0-8C07-AF0F82B4732B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4BB907-3699-46D0-8C07-AF0F82B4732B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4BB907-3699-46D0-8C07-AF0F82B4732B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4BB907-3699-46D0-8C07-AF0F82B4732B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F48230BF-C8B0-4644-8B56-1D18084AB856} = {A8555466-BF94-402E-9B62-5C91E9D3ECA9}
+		{770D5D13-84F0-46B8-BA7B-8F40BF1B0964} = {A8555466-BF94-402E-9B62-5C91E9D3ECA9}
 	EndGlobalSection
 EndGlobal

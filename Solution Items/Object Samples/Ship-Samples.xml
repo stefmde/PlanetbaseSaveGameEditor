@@ -1,0 +1,55 @@
+<save-game version="11">
+	<ships>
+		<ship type="ColonyShip">
+			<id value="0" />
+			<position x="1058.5" y="0" z="1108.2" />
+			<orientation x="0.0008707831" y="0.0005224698" z="0.0003483132" />
+			<target-position x="1058.5" y="0" z="1108.2" />
+			<state value="5" />
+			<resource-container>
+				<resource type="Metal">
+					<id value="1" />
+					<trader-id value="-1" />
+					<position x="1058.5" y="0" z="1108.2" />
+					<orientation x="0" y="0" z="0" />
+					<state value="0" />
+					<location value="1" />
+					<subtype value="0" />
+					<condition value="1" />
+					<durability value="1" />
+				</resource>
+			</resource-container>
+		</ship>
+		<ship type="VisitorShip">
+			<id value="41083" />
+			<position x="1059.7" y="0.229599" z="1098.021" />
+			<orientation x="359.2912" y="263.7043" z="0.5610718" />
+			<state-time value="245.3756" />
+			<state value="2" />
+			<target-module value="1172" />
+			<original-rotation x="0" y="280.7938" z="0" />
+			<final-rotation x="0" y="248.6078" z="0" />
+			<size value="1" />
+			<intruders value="False" />
+			<velocity x="1.509596E-15" y="-8.046329E-15" z="1.343007E-14" />
+			<visitor-event-name value="" />
+			<ship-type value="0" />
+			<pending-visitors value="2" />
+			<fee value="0" />
+			<prestige value="0" />
+		</ship>
+		<ship type="ColonistShip">
+			<id value="35197" />
+			<position x="861.2644" y="0.1754054" z="1273.713" />
+			<orientation x="359.9478" y="324.5906" z="358.8816" />
+			<state-time value="7.279994" />
+			<state value="2" />
+			<target-module value="28737" />
+			<original-rotation x="0" y="303.1475" z="0" />
+			<final-rotation x="0" y="17.55598" z="0" />
+			<size value="1" />
+			<intruders value="False" />
+			<velocity x="-0.03309196" y="-0.09249974" z="0.03477221" />
+		</ship>
+	</ships>
+</save-game>

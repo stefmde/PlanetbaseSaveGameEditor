@@ -1,5 +1,7 @@
 ﻿using System.Xml.Serialization;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.ShipModels;
 
 namespace PlanetbaseSaveGameEditor.Core.Models
 {

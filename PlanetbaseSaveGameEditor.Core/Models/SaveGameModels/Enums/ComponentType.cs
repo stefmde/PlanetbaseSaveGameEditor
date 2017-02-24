@@ -45,6 +45,7 @@
 		GmTomatoPad,
 		LettucePad,
 		PeaPad,
-		TableSmall
+		TableSmall,
+		MaizePad
 	}
 }

@@ -11,6 +11,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums
 		Unknown,
 		ColonyShip,
 		VisitorShip,
-		MerchantShip
+		MerchantShip,
+		ColonistShip
 	}
 }

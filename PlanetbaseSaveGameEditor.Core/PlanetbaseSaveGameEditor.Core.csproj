@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\CharacterHealthExtensions.cs" />
+    <Compile Include="Extensions\CollectorExtensions.cs" />
+    <Compile Include="Extensions\ConstructionExtensions.cs" />
     <Compile Include="Models\SaveGameModels\Attributes\BoolValueAttribute.cs" />
     <Compile Include="Models\SaveGameModels\Cdata.cs" />
     <Compile Include="Models\SaveGameModels\CharacterModels\BaseCharacter.cs" />
@@ -67,8 +70,8 @@
     <Compile Include="Models\SaveGameModels\Blizzard.cs" />
     <Compile Include="Models\SaveGameModels\Camera.cs" />
     <Compile Include="Models\SaveGameModels\ChallengeManager.cs" />
-    <Compile Include="Models\SaveGameModels\Character.cs" />
-    <Compile Include="Models\SaveGameModels\Characters.cs" />
+    <Compile Include="Models\SaveGameModels\CharacterModels\Character.cs" />
+    <Compile Include="Models\SaveGameModels\CharacterModels\Characters.cs" />
     <Compile Include="Models\SaveGameModels\Colony.cs" />
     <Compile Include="Models\SaveGameModels\Counter.cs" />
     <Compile Include="Models\SaveGameModels\Environment.cs" />
@@ -86,9 +89,10 @@
     <Compile Include="Models\SaveGameModels\ResourceStorage.cs" />
     <Compile Include="Models\SaveGameModels\Enums\ResourceType.cs" />
     <Compile Include="Models\SaveGameModels\Sandstorm.cs" />
-    <Compile Include="Models\SaveGameModels\Ship.cs" />
+    <Compile Include="Models\SaveGameModels\ShipModels\Ship.cs" />
     <Compile Include="Models\SaveGameModels\ShipManager.cs" />
-    <Compile Include="Models\SaveGameModels\Ships.cs" />
+    <Compile Include="Models\SaveGameModels\ShipModels\BaseShip.cs" />
+    <Compile Include="Models\SaveGameModels\ShipModels\Ships.cs" />
     <Compile Include="Models\SaveGameModels\Slot.cs" />
     <Compile Include="Models\SaveGameModels\SolarFlare.cs" />
     <Compile Include="Models\SaveGameModels\Enums\SpecializationType.cs" />
