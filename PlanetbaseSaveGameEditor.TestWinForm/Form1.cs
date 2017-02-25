@@ -21,24 +21,57 @@ namespace PlanetbaseSaveGameEditor.TestWinForm
 			InitializeComponent();
 		}
 
+		private void Form1_Shown(object sender, EventArgs e)
+		{
+
+		}
+
+		private void Form1_Activated(object sender, EventArgs e)
+		{
+			textBoxLog.AppendText("Try to list SaveGames..." + Environment.NewLine);
+			if (!string.IsNullOrEmpty(textBoxSaveGameRootPath.Text) && Directory.Exists(textBoxSaveGameRootPath.Text))
+			{
+				List<SaveGameFile> saveGameFiles = SaveGameManager.GetSaveGameFiles(textBoxSaveGameRootPath.Text);
+				coBxSaveGames.Items.AddRange(saveGameFiles.ToArray());
+				coBxSaveGames.SelectedItem = saveGameFiles.First();
+				textBoxLog.AppendText(saveGameFiles.Count + " SaveGames listed." + Environment.NewLine);
+			}
+			else
+			{
+				textBoxLog.AppendText("Directory doesnt exist or no path given." + Environment.NewLine);
+			}
+		}
+
 		private void buttonPatchAll_Click(object sender, EventArgs e)
 		{
-			textBoxLog.AppendText("Reading file content..." + Environment.NewLine);
-			string fileContent = File.ReadAllText(textBoxFilePath.Text);
+			if (coBxSaveGames.SelectedText == String.Empty)
+			{
+				textBoxLog.AppendText("No file selected." + Environment.NewLine + Environment.NewLine);
+			}
+			else
+			{
+				textBoxLog.AppendText("Getting file..." + Environment.NewLine);
+				SaveGameFile selectedSaveGameFile = (SaveGameFile)coBxSaveGames.SelectedItem;
 
-			textBoxLog.AppendText("Deserializing..." + Environment.NewLine);
-			SaveGame saveGame = SaveGameManager.DeSerializeFromXml(fileContent).FillAllCollectors().HealAllCharacters().DoAllConstructions();
+				textBoxLog.AppendText("Reading file..." + Environment.NewLine);
+				string fileContent = File.ReadAllText(selectedSaveGameFile.FullName);
 
-			textBoxLog.AppendText("Patching..." + Environment.NewLine);
-			saveGame = saveGame.FillAllCollectors().HealAllCharacters().DoAllConstructions();
+				textBoxLog.AppendText("Deserializing..." + Environment.NewLine);
+				SaveGame saveGame = SaveGameManager.DeSerializeFromXml<SaveGame>(fileContent).FillAllCollectors().HealAllCharacters().DoAllConstructions();
 
-			textBoxLog.AppendText("Serializing..." + Environment.NewLine);
-			string saveGameXml = SaveGameManager.SerializeToXml(saveGame);
+				textBoxLog.AppendText("Patching..." + Environment.NewLine);
+				saveGame = saveGame.FillAllCollectors().HealAllCharacters().DoAllConstructions();
 
-			textBoxLog.AppendText("Writing file content..." + Environment.NewLine);
-			File.WriteAllText(textBoxFilePath.Text, saveGameXml);
+				textBoxLog.AppendText("Serializing..." + Environment.NewLine);
+				string saveGameXml = SaveGameManager.SerializeToXml(saveGame);
 
-			textBoxLog.AppendText("Done." + Environment.NewLine + Environment.NewLine);
+				textBoxLog.AppendText("Writing file content..." + Environment.NewLine);
+				File.WriteAllText(textBoxSaveGameRootPath.Text, saveGameXml);
+
+				textBoxLog.AppendText("Done." + Environment.NewLine + Environment.NewLine);
+			}
 		}
+
+
 	}
 }

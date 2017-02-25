@@ -43,12 +43,13 @@
     <Compile Include="Extensions\CharacterHealthExtensions.cs" />
     <Compile Include="Extensions\CollectorExtensions.cs" />
     <Compile Include="Extensions\ConstructionExtensions.cs" />
+    <Compile Include="Models\SaveGameFile.cs" />
     <Compile Include="Models\SaveGameModels\Attributes\BoolValueAttribute.cs" />
     <Compile Include="Models\SaveGameModels\Cdata.cs" />
     <Compile Include="Models\SaveGameModels\CharacterModels\BaseCharacter.cs" />
     <Compile Include="Models\SaveGameModels\CharacterModels\BotCharacter.cs" />
     <Compile Include="Models\SaveGameModels\CharacterModels\GuestCharacter.cs" />
-    <Compile Include="Models\SaveGameModels\CharacterModels\HumanCharacter.cs" />
+    <Compile Include="Models\SaveGameModels\CharacterModels\ColonistCharacter.cs" />
     <Compile Include="Models\SaveGameModels\Enums\HumanConditionType.cs" />
     <Compile Include="Models\SaveGameModels\Enums\ShipType.cs" />
     <Compile Include="Models\SaveGameModels\HumanCondition.cs" />
@@ -105,6 +106,7 @@
     <Compile Include="Models\SaveGameModels\Selectable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\SaveGame.cs" />
+    <Compile Include="Worker\AbstactSerializer.cs" />
     <Compile Include="Worker\SaveGameManager.cs" />
   </ItemGroup>
   <ItemGroup />

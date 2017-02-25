@@ -9,8 +9,11 @@ using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 {
-	public class BaseCharacter
+	public abstract class BaseCharacter
 	{
+		[XmlAttribute(AttributeName = "type")]
+		public CharacterType CharacterType { get; set; }
+
 		[XmlElement(ElementName = "position")]
 		public Coordinates Position { get; set; }
 

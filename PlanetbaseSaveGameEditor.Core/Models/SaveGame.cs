@@ -1,7 +1,9 @@
-﻿using System.Xml.Serialization;
+﻿using System.Collections.Generic;
+using System.Xml.Serialization;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.ShipModels;
+using PlanetbaseSaveGameEditor.Core.Worker;
 
 namespace PlanetbaseSaveGameEditor.Core.Models
 {
@@ -78,8 +80,9 @@ namespace PlanetbaseSaveGameEditor.Core.Models
 		[XmlElement(ElementName = "constructions")]
 		public Constructions Constructions { get; set; }
 
-		[XmlElement(ElementName = "characters")]
-		public Characters Characters { get; set; }
+		[XmlArray("characters")]
+		[XmlArrayItem("character", Type = typeof(AbstactSerializer<BaseCharacter>))]
+		public List<BaseCharacter> Characters { get; set; }
 
 		[XmlElement(ElementName = "resources")]
 		public Resources Resources { get; set; }

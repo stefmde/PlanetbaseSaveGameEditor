@@ -16,14 +16,15 @@ namespace PlanetbaseSaveGameEditor.Core.Extensions
 		{
 			SaveGame saveGame = input;
 
-			foreach (Character character in saveGame.Characters.Character.Where(x => x.CharacterType == CharacterType.Colonist || x.CharacterType == CharacterType.Guest))
+			foreach (BaseCharacter character in saveGame.Characters.Where(x => x.CharacterType == CharacterType.Colonist || x.CharacterType == CharacterType.Guest))
 			{
-				character.Health.Value = 1;
-				character.Nutrition.Value = 1;
-				character.Hydration.Value = 1;
-				character.Oxygen.Value = 1;
-				character.Sleep.Value = 1;
-				character.Morale.Value = 1;
+				ColonistCharacter colonistCharacter = (ColonistCharacter)character;
+				colonistCharacter.Health.Value = 1;
+				colonistCharacter.Nutrition.Value = 1;
+				colonistCharacter.Hydration.Value = 1;
+				colonistCharacter.Oxygen.Value = 1;
+				colonistCharacter.Sleep.Value = 1;
+				colonistCharacter.Morale.Value = 1;
 			}
 
 			return saveGame;
@@ -33,11 +34,12 @@ namespace PlanetbaseSaveGameEditor.Core.Extensions
 		{
 			SaveGame saveGame = input;
 
-			foreach (Character character in saveGame.Characters.Character.Where(x => x.CharacterType == CharacterType.Bot))
+			foreach (BaseCharacter character in saveGame.Characters.Where(x => x.CharacterType == CharacterType.Bot))
 			{
-				character.State.Value = 1;
-				character.CharacterCondition.Value = 1;
-				character.Integrity.Value = 1;
+				BotCharacter botCharacter = (BotCharacter)character;
+				botCharacter.State.Value = 1;
+				botCharacter.Condition.Value = 1;
+				botCharacter.Integrity.Value = 1;
 			}
 
 			return saveGame;

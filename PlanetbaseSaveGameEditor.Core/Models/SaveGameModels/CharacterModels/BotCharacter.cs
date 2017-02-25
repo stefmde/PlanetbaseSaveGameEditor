@@ -5,11 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 {
 	public class BotCharacter : BaseCharacter
 	{
+		public BotCharacter()
+		{
+			CharacterType = CharacterType.Bot;
+		}
+
 		[XmlElement(ElementName = "Condition")]
 		public ValueAttribute<Double> Condition { get; set; }
 

@@ -8,8 +8,8 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	[XmlRoot(ElementName = "amount")]
 	public class Amount
 	{
-		[XmlAttribute(AttributeName = "value")]
-		public string Value { get; set; }
+		//[XmlAttribute(AttributeName = "value")]
+		//public string Value { get; set; }
 
 		[XmlElement(ElementName = "resource-type")]
 		public ValueAttribute<ResourceType> ResourceType { get; set; }

@@ -12,7 +12,7 @@ namespace PlanetbaseSaveGameEditor.Core.Worker
 {
 	public static class SaveGameManager
 	{
-		public static string SerializeToXml(SaveGame saveGame)
+		public static string SerializeToXml<T>(T saveGame)
 		{
 			string data;
 
@@ -41,14 +41,40 @@ namespace PlanetbaseSaveGameEditor.Core.Worker
 			return data;
 		}
 
-		public static SaveGame DeSerializeFromXml(string xml)
+		public static T DeSerializeFromXml<T>(string xml)
 		{
-			XmlSerializer x = new XmlSerializer(typeof(SaveGame));
+			XmlSerializer x = new XmlSerializer(typeof(T));
 			byte[] xmlBytes = Encoding.UTF8.GetBytes(xml);
 			using (MemoryStream ms = new MemoryStream(xmlBytes))
 			{
-				return (SaveGame)x.Deserialize(ms);
+				return (T)x.Deserialize(ms);
 			}
 		}
+
+		public static List<SaveGameFile> GetSaveGameFiles(string rootPath)
+		{
+			List<SaveGameFile> saveGameFiles = new List<SaveGameFile>();
+
+			DirectoryInfo directoryInfo = new DirectoryInfo(rootPath);
+			FileInfo[] files = directoryInfo.GetFiles("*.sav");
+
+			foreach (FileInfo file in files)
+			{
+				SaveGameFile saveGameFile = new SaveGameFile()
+				{
+					RootPath = rootPath,
+					LastChanged = file.LastWriteTime,
+					Name = file.Name,
+					SizeInKb = file.Length / 1024
+				};
+
+				saveGameFiles.Add(saveGameFile);
+			}
+
+			saveGameFiles = saveGameFiles.OrderByDescending(x => x.LastChanged).ToList();
+
+			return saveGameFiles;
+		}
+
 	}
 }

@@ -18,7 +18,7 @@ namespace PlanetbaseSaveGameEditor.TestConsole
 
 			string fileContent = File.ReadAllText(filePath);
 
-			SaveGame saveGame = SaveGameManager.DeSerializeFromXml(fileContent).FillAllCollectors().HealAllCharacters().DoAllConstructions();
+			SaveGame saveGame = SaveGameManager.DeSerializeFromXml<SaveGame>(fileContent).FillAllCollectors().HealAllCharacters().DoAllConstructions();
 
 			string saveGameXml = SaveGameManager.SerializeToXml(saveGame);
 

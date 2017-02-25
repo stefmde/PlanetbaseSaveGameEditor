@@ -5,11 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 {
-	public class GuestCharacter : HumanCharacter
+	public class GuestCharacter : ColonistCharacter
 	{
+		public GuestCharacter()
+		{
+			CharacterType = CharacterType.Guest;
+		}
+
 		[XmlElement(ElementName = "fee")]
 		public ValueAttribute<Int32> Fee { get; set; }
 
