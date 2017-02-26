@@ -54,5 +54,8 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 
 		[XmlElement(ElementName = "condition")]
 		public HumanCondition Condition { get; set; }
+
+		[XmlElement(ElementName = "specialization")]
+		public ValueAttribute<ColonistSpecializationType> Specialization { get; set; }
 	}
 }

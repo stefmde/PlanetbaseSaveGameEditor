@@ -21,6 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SaveGame Samples", "SaveGam
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Object Samples", "Object Samples", "{770D5D13-84F0-46B8-BA7B-8F40BF1B0964}"
 	ProjectSection(SolutionItems) = preProject
+		Character-Samples.xml = Character-Samples.xml
+		MilestonesAndTech-Samples.xml = MilestonesAndTech-Samples.xml
+		Resources-Samples.xml = Resources-Samples.xml
 		Solution Items\Object Samples\Ship-Samples.xml = Solution Items\Object Samples\Ship-Samples.xml
 	EndProjectSection
 EndProject

@@ -1,6 +1,14 @@
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums
 {
-	public enum SpecializationType
+	public enum BotSpecializationType
+	{
+		Unknown,
+		Constructor,
+		Driller,
+		Carrier
+	}
+
+	public enum ColonistSpecializationType
 	{
 		Unknown,
 		Medic,
@@ -8,9 +16,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums
 		Worker,
 		Engineer,
 		Biologist,
-		Constructor,
-		Driller,
-		Carrier,
 		Visitor
 	}
 }

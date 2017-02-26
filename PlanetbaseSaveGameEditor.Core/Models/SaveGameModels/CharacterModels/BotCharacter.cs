@@ -27,5 +27,8 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 
 		[XmlElement(ElementName = "loaded-resource")]
 		public ValueAttribute<Int32> LoadedResource { get; set; }
+
+		[XmlElement(ElementName = "specialization")]
+		public ValueAttribute<BotSpecializationType> Specialization { get; set; }
 	}
 }

@@ -8,7 +8,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels
 	public class Camera
 	{
 		[XmlElement(ElementName = "height")]
-		public ValueAttribute<Int32> Height { get; set; }
+		public ValueAttribute<Double> Height { get; set; }
 
 		[XmlElement(ElementName = "position")]
 		public Coordinates Position { get; set; }

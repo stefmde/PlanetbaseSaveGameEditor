@@ -1,0 +1,25 @@
+﻿<save-game version="11">
+	<milestones>
+		<milestone value="MilestoneSurvival" />
+		<milestone value="MilestoneExpansion" />
+		<milestone value="MilestoneSelfSufficiency" />
+		<milestone value="MilestoneStanding" />
+		<milestone value="MilestoneRobotization" />
+		<milestone value="MilestoneTechnocracy" />
+		<milestone value="MilestonePowerMonger" />
+		<milestone value="MilestoneMegalomania" />
+		<milestone value="MilestoneCentury" />
+	</milestones>
+	<techs>
+		<tech value="TechGoliathTurbine" />
+		<tech value="TechGmTomatoes" />
+		<tech value="TechColossalPanel" />
+		<tech value="TechMassiveStorage" />
+		<tech value="TechDrillerBot" />
+		<tech value="TechGmOnions" />
+		<tech value="TechMegaCollector" />
+		<tech value="TechSuperExtractor" />
+		<tech value="TechConstructorBot" />
+		<tech value="TechFarmDome" />
+	</techs>
+</save-game>

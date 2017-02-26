@@ -30,7 +30,7 @@ namespace PlanetbaseSaveGameEditor.Core.Extensions
 			return saveGame;
 		}
 
-		public static SaveGame HealAllBots(this SaveGame input)
+		public static SaveGame RepairAllBots(this SaveGame input)
 		{
 			SaveGame saveGame = input;
 
@@ -47,7 +47,7 @@ namespace PlanetbaseSaveGameEditor.Core.Extensions
 
 		public static SaveGame HealAllCharacters(this SaveGame input)
 		{
-			return input.HealAllColonists().HealAllBots();
+			return input.HealAllColonists().RepairAllBots();
 		}
 	}
 }

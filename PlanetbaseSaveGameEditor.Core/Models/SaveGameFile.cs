@@ -9,7 +9,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models
 	public class SaveGameFile
 	{
 		public string DisplayName => Name + " - " + LastChanged.ToShortDateString() + " " + LastChanged.ToShortTimeString() + " - " + SizeInKb + " Kb";
-		public string FullName => RootPath + "\\" + Name;
+		public string FullName => RootPath.EndsWith("\\") ? RootPath + Name : RootPath + "\\" + Name;
 
 		public string Name { get; set; }
 		public string RootPath { get; set; }

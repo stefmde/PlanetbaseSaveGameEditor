@@ -1,0 +1,169 @@
+﻿<save-game version="11">
+	<characters>
+		<character type="Bot">
+			<position x="1185.227" y="0.1991086" z="996.8257" />
+			<orientation x="0" y="293.7112" z="0" />
+			<location value="0" />
+			<name value="CR-1" />
+			<specialization value="Carrier" />
+			<status-flags value="0" />
+			<state value="1" />
+			<id value="118" />
+			<wander-time value="69.11997" />
+			<Condition value="0.8980907" />
+			<Integrity value="0.9499106" />
+			<integrity-decay-rate value="19030.03" />
+		</character>
+		<character type="Bot">
+			<position x="1207.357" y="0.1999999" z="1031.593" />
+			<orientation x="0" y="209.8715" z="0" />
+			<location value="0" />
+			<name value="CNT-2" />
+			<specialization value="Constructor" />
+			<status-flags value="0" />
+			<state value="1" />
+			<id value="119" />
+			<wander-time value="3.84" />
+			<Condition value="0.7336026" />
+			<Integrity value="0.9404734" />
+			<integrity-decay-rate value="16556.84" />
+		</character>
+		<character type="Bot">
+			<position x="903.1662" y="0.1792343" z="1172.26" />
+			<orientation x="0" y="47.87423" z="0" />
+			<location value="1" />
+			<name value="DR-81" />
+			<specialization value="Driller" />
+			<status-flags value="0" />
+			<state value="1" />
+			<id value="20591" />
+			<wander-time value="960.0098" />
+			<Condition value="0.4499149" />
+			<Integrity value="0.1716046" />
+			<integrity-decay-rate value="20610.03" />
+		</character>
+		
+		<character type="Colonist">
+			<position x="1209.792" y="0.2" z="1032.524" />
+			<orientation x="-2.504478E-06" y="36.6807" z="-2.544444E-13" />
+			<location value="0" />
+			<name value="Dante R. Santana" />
+			<specialization value="Biologist" />
+			<status-flags value="0" />
+			<state value="3" />
+			<id value="508" />
+			<wander-time value="46.07999" />
+			<loaded-resource value="688" />
+			<Health value="1" />
+			<Nutrition value="0.8506642" />
+			<Hydration value="0.8709311" />
+			<Oxygen value="1" />
+			<Sleep value="0.9331582" />
+			<Morale value="0.8989583" />
+			<gender value="0" />
+			<basic-meal-count value="1" />
+			<head-index value="5" />
+			<skin-color-index value="5" />
+			<hair-color-index value="0" />
+			<doctor value="False" />
+			<inmunity-to-contagion-time value="0" />
+		</character>
+		<character type="Colonist">
+			<position x="1224.162" y="0.1804885" z="1009.412" />
+			<orientation x="0" y="288.7697" z="0" />
+			<location value="0" />
+			<name value="Mitchell B. Rubcer" />
+			<specialization value="Engineer" />
+			<status-flags value="0" />
+			<state value="1" />
+			<id value="509" />
+			<wander-time value="35.84" />
+			<loaded-resource value="648" />
+			<Health value="1" />
+			<Nutrition value="0.8431973" />
+			<Hydration value="0.8933315" />
+			<Oxygen value="1" />
+			<Sleep value="0.9111146" />
+			<Morale value="0.9057544" />
+			<gender value="0" />
+			<basic-meal-count value="0" />
+			<head-index value="2" />
+			<skin-color-index value="1" />
+			<hair-color-index value="8" />
+			<doctor value="True" />
+			<inmunity-to-contagion-time value="0" />
+		</character>
+		<character type="Colonist">
+			<position x="1175.714" y="0.2" z="1021.107" />
+			<orientation x="-3.943888E-13" y="189.4442" z="2.504478E-06" />
+			<location value="0" />
+			<name value="А.B. Kerr" />
+			<specialization value="Worker" />
+			<status-flags value="0" />
+			<state value="3" />
+			<id value="510" />
+			<wander-time value="1802.261" />
+			<Health value="1" />
+			<Nutrition value="0.8293304" />
+			<Hydration value="0.8783979" />
+			<Oxygen value="1" />
+			<Sleep value="0.9018705" />
+			<Morale value="0.8971236" />
+			<gender value="0" />
+			<basic-meal-count value="1" />
+			<head-index value="8" />
+			<skin-color-index value="1" />
+			<hair-color-index value="3" />
+			<doctor value="False" />
+			<inmunity-to-contagion-time value="0" />
+		</character>
+		<character type="Colonist">
+			<position x="1228.843" y="0.2" z="1005.836" />
+			<orientation x="-2.504478E-06" y="146.3029" z="-7.633331E-13" />
+			<location value="0" />
+			<name value="Del Molina" />
+			<specialization value="Guard" />
+			<status-flags value="0" />
+			<state value="3" />
+			<id value="554" />
+			<wander-time value="1546.262" />
+			<Health value="1" />
+			<Nutrition value="0.8303971" />
+			<Hydration value="0.884798" />
+			<Oxygen value="1" />
+			<Sleep value="0.9040037" />
+			<Morale value="0.9095327" />
+			<gender value="0" />
+			<basic-meal-count value="0" />
+			<head-index value="7" />
+			<skin-color-index value="5" />
+			<hair-color-index value="4" />
+			<doctor value="True" />
+			<inmunity-to-contagion-time value="0" />
+		</character>
+		<character type="Colonist">
+			<position x="1187.63" y="0.1505735" z="1052.07" />
+			<orientation x="-9.315646E-09" y="193.3876" z="-8.848109E-09" />
+			<location value="0" />
+			<name value="Adam T. Pace" />
+			<specialization value="Medic" />
+			<status-flags value="0" />
+			<state value="1" />
+			<id value="583" />
+			<wander-time value="88.31995" />
+			<Health value="1" />
+			<Nutrition value="0.841064" />
+			<Hydration value="0.8463974" />
+			<Oxygen value="1" />
+			<Sleep value="0.91467" />
+			<Morale value="0.9316663" />
+			<gender value="0" />
+			<basic-meal-count value="0" />
+			<head-index value="8" />
+			<skin-color-index value="0" />
+			<hair-color-index value="2" />
+			<doctor value="False" />
+			<inmunity-to-contagion-time value="0" />
+		</character>
+	</characters>
+</save-game>

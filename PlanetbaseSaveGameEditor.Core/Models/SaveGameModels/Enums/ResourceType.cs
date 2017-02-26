@@ -3,15 +3,19 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums
 	public enum ResourceType
 	{
 		Unknown,
-		Vegetables,
-		Meal,
-		Vitromeat,
-		MedicalSupplies,
+		AlcoholicDrink,
 		Bioplastic,
-		Ore,
-		Spares,
+		Coins,
+		Gun,
+		Meal,
+		MedicalSupplies,
+		MedicinalPlants,
 		Metal,
+		Ore,
 		Semiconductors,
-		Coins
+		Spares,
+		Starch,
+		Vegetables,
+		Vitromeat
 	}
 }

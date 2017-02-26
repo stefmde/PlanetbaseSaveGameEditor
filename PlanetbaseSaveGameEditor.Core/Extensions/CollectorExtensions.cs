@@ -34,7 +34,7 @@ namespace PlanetbaseSaveGameEditor.Core.Extensions
 			return saveGame;
 		}
 
-		public static SaveGame FillAllWatterCollectors(this SaveGame input)
+		public static SaveGame FillAllWatterTanks(this SaveGame input)
 		{
 			SaveGame saveGame = input;
 
@@ -55,7 +55,7 @@ namespace PlanetbaseSaveGameEditor.Core.Extensions
 
 		public static SaveGame FillAllCollectors(this SaveGame input)
 		{
-			return input.FillAllPowerCollectors().FillAllWatterCollectors();
+			return input.FillAllPowerCollectors().FillAllWatterTanks();
 		}
 	}
 }

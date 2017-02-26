@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,13 +81,79 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\PlanetbaseSaveGameEditor.Core\PlanetbaseSaveGameEditor.Core.csproj">
       <Project>{a0ab9545-f0f0-43fe-b9ee-08ce7a993e5b}</Project>
       <Name>PlanetbaseSaveGameEditor.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character.Biologist.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character.BuildBot.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character.DrillBot.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character.Engineer.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character.Guard.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character.Medic.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character.TransportBot.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character.Worker.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Alcol.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Biopla.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Coins.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Gun.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Meal.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Med_plat.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Meds.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Metal.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Ore.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Semi.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Spare.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Starch.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Vege.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.Vitro.x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character.Guest.x26.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,27 @@
+﻿<save-game version="11">
+	<id-generator>
+		<next-id value="35280" />
+		<next-bot-id value="144" />
+	</id-generator>	
+
+	<resources>
+		<resource type="Bioplastic">
+			<id value="25819" />
+			<trader-id value="-1" />
+			<position x="832.3909" y="1.000013" z="1335.701" />
+			<orientation x="0" y="308.0566" z="0" />
+			<state value="3" />
+			<location value="1" />
+			<subtype value="0" />
+			<condition value="0.9075583" />
+			<durability value="0" />
+		</resource>
+		<inmaterial-resources>
+			<container-name value="" />
+			<amount>
+				<resource-type value="Coins" />
+				<amount value="972659" />
+			</amount>
+		</inmaterial-resources>
+	</resources>
+</save-game>

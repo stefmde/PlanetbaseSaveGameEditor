@@ -26,9 +26,6 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 		[XmlElement(ElementName = "name")]
 		public ValueAttribute<String> Name { get; set; }
 
-		[XmlElement(ElementName = "specialization")]
-		public ValueAttribute<SpecializationType> Specialization { get; set; }
-
 		[XmlElement(ElementName = "status-flags")]
 		public ValueAttribute<String> StatusFlags { get; set; }
 
