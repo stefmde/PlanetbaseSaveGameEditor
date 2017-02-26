@@ -12,20 +12,17 @@ namespace PlanetbaseSaveGameEditor.Core.Extensions
 		{
 			int result = defaultValue;
 
-			if (input != null)
-			{
-				string stringValue = input.ToString();
+			string stringValue = input?.ToString();
 
-				if (!string.IsNullOrEmpty(stringValue))
+			if (!string.IsNullOrEmpty(stringValue))
+			{
+				try
 				{
-					try
-					{
-						result = int.Parse(stringValue);
-					}
-					catch (Exception ex)
-					{
-						//throw;
-					}
+					result = int.Parse(stringValue);
+				}
+				catch
+				{
+					//throw;
 				}
 			}
 

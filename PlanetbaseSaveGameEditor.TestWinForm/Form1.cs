@@ -229,10 +229,6 @@ namespace PlanetbaseSaveGameEditor.TestWinForm
 					dictionary.Add(row.Cells[0].Value.ToString(), value);
 				}
 			}
-
-
-
-
 		}
 
 		#endregion

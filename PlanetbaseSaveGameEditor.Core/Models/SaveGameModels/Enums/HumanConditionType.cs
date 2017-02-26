@@ -10,6 +10,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums
 	{
 		Unknown,
 		ConditionCombatWounds,
-		ConditionTraumaInjuries
+		ConditionTraumaInjuries,
+		ConditionMalnutrition
 	}
 }

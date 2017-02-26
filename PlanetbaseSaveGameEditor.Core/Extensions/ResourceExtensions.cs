@@ -29,6 +29,8 @@ namespace PlanetbaseSaveGameEditor.Core.Extensions
 					Orientation = new Coordinates() { X = 0, Y = 0, Z = 0 },
 					Position = new Coordinates() { X = 0, Y = 0, Z = 0 },
 					State = new ValueAttribute<int>() { Value = 1 },
+					Traderid = new ValueAttribute<int>() { Value = -1 },
+					Subtype = new ValueAttribute<int>() { Value = 0 },
 					Type = resourceType
 				};
 				currentId++;
