@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.Enums;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
-using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 {

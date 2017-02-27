@@ -11,10 +11,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using PlanetbaseSaveGameEditor.Core.Extensions;
 using PlanetbaseSaveGameEditor.Core.Models;
+using PlanetbaseSaveGameEditor.Core.Models.Enums;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels;
-using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels;
-using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 using PlanetbaseSaveGameEditor.Core.Worker;
 using Environment = System.Environment;
 using Resources = PlanetbaseSaveGameEditor.TestWinForm.Properties.Resources;
@@ -24,7 +23,7 @@ namespace PlanetbaseSaveGameEditor.TestWinForm
 	public partial class Form1 : Form
 	{
 		private SaveGameFile _selectedSaveGame;
-		private SaveGame _loadedSaveGame;
+		private SaveGameCore _loadedSaveGame;
 
 		public Form1()
 		{
@@ -75,7 +74,7 @@ namespace PlanetbaseSaveGameEditor.TestWinForm
 		private void buttonSave_Click(object sender, EventArgs e)
 		{
 			textBoxLog.AppendText("Serializing..." + Environment.NewLine);
-			string saveGameXml = SaveGameManager.SerializeToXml(_loadedSaveGame);
+			string saveGameXml = FileManager.SerializeToXml(_loadedSaveGame);
 
 			textBoxLog.AppendText("Writing file content..." + Environment.NewLine);
 			File.WriteAllText(_selectedSaveGame.FullName, saveGameXml);
@@ -248,7 +247,7 @@ namespace PlanetbaseSaveGameEditor.TestWinForm
 			string fileContent = File.ReadAllText(_selectedSaveGame.FullName);
 
 			textBoxLog.AppendText("Deserializing..." + Environment.NewLine);
-			_loadedSaveGame = SaveGameManager.DeSerializeFromXml<SaveGame>(fileContent).FillAllCollectors().HealAllCharacters().DoAllConstructions();
+			_loadedSaveGame = FileManager.DeSerializeFromXml<SaveGameCore>(fileContent).FillAllCollectors().HealAllCharacters().DoAllConstructions();
 
 			textBoxLog.AppendText("Computing data..." + Environment.NewLine);
 			UpdateResourceDatagrid();
@@ -262,7 +261,7 @@ namespace PlanetbaseSaveGameEditor.TestWinForm
 			textBoxLog.AppendText("Try to list SaveGames..." + Environment.NewLine);
 			if (!string.IsNullOrEmpty(textBoxSaveGameRootPath.Text) && Directory.Exists(textBoxSaveGameRootPath.Text))
 			{
-				List<SaveGameFile> saveGameFiles = SaveGameManager.GetSaveGameFiles(textBoxSaveGameRootPath.Text);
+				List<SaveGameFile> saveGameFiles = FileManager.GetSaveGameFiles(textBoxSaveGameRootPath.Text);
 				coBxSaveGames.Items.AddRange(saveGameFiles.ToArray());
 				coBxSaveGames.SelectedItem = saveGameFiles.First();
 				textBoxLog.AppendText(saveGameFiles.Count + " SaveGames listed." + Environment.NewLine);

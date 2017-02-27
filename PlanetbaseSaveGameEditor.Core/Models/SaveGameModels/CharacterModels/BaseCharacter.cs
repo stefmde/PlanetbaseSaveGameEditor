@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.Enums;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
-using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 {
@@ -15,10 +11,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 		public CharacterType CharacterType { get; set; }
 
 		[XmlElement(ElementName = "position")]
-		public Coordinates Position { get; set; }
+		public CoordinatesCore Position { get; set; }
 
 		[XmlElement(ElementName = "orientation")]
-		public Coordinates Orientation { get; set; }
+		public CoordinatesCore Orientation { get; set; }
 
 		[XmlElement(ElementName = "location")]
 		public ValueAttribute<Int32> Location { get; set; }

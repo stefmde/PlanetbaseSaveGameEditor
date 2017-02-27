@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using PlanetbaseSaveGameEditor.Core.Extensions;
 using PlanetbaseSaveGameEditor.Core.Models;
+using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels;
 using PlanetbaseSaveGameEditor.Core.Worker;
 
 namespace PlanetbaseSaveGameEditor.TestConsole
@@ -18,9 +19,9 @@ namespace PlanetbaseSaveGameEditor.TestConsole
 
 			string fileContent = File.ReadAllText(filePath);
 
-			SaveGame saveGame = SaveGameManager.DeSerializeFromXml<SaveGame>(fileContent).FillAllCollectors().HealAllCharacters().DoAllConstructions();
+			SaveGameCore saveGame = FileManager.DeSerializeFromXml<SaveGameCore>(fileContent).FillAllCollectors().HealAllCharacters().DoAllConstructions();
 
-			string saveGameXml = SaveGameManager.SerializeToXml(saveGame);
+			string saveGameXml = FileManager.SerializeToXml(saveGame);
 
 			Console.ReadLine();
 		}

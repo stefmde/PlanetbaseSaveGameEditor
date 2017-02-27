@@ -53,7 +53,7 @@ namespace PlanetbaseSaveGameEditor.Core.Worker
 			writer.WriteAttributeString("type", Data.GetType().Name.Replace("Character", ""));
 
 			XmlDocument xml = new XmlDocument();
-			xml.LoadXml(SaveGameManager.SerializeToXml(Data));
+			xml.LoadXml(FileManager.SerializeToXml(Data));
 			XmlNodeList nodes = xml.SelectNodes("./*");
 
 			if (nodes != null)

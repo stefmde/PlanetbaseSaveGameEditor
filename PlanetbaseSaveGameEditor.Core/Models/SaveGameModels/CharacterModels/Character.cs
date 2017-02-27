@@ -1,8 +1,3 @@
-using System;
-using System.Xml.Serialization;
-using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
-using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
-
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.CharacterModels
 {
 	//[XmlRoot(ElementName = "character")]

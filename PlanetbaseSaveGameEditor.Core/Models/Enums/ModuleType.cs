@@ -1,0 +1,36 @@
+namespace PlanetbaseSaveGameEditor.Core.Models.Enums
+{
+	public enum ModuleType
+	{
+		Unknown,
+		ModuleTypeDorm,
+		ModuleTypeLab,
+		ModuleTypeOxygenGenerator,
+		ModuleTypeAirlock,
+		ModuleTypeSolarPanel,
+		ModuleTypeWindTurbine,
+		ModuleTypePowerCollector,
+		ModuleTypeWaterExtractor,
+		ModuleTypeWaterTank,
+		ModuleTypeBioDome,
+		ModuleTypeCanteen,
+		ModuleTypeMine,
+		ModuleTypeLandingPad,
+		ModuleTypeSickBay,
+		ModuleTypeProcessingPlant,
+		ModuleTypeStorage,
+		ModuleTypeControlCenter,
+		ModuleTypeFactory,
+		ModuleTypeBar,
+		ModuleTypeRoboticsFacility,
+		ModuleTypeCabin,
+		ModuleTypeMultiDome,
+		ModuleTypeRadioAntenna,
+		ModuleTypeTelescope,
+		ModuleTypePyramid,
+		ModuleTypeStarport,
+		ModuleTypeSignpost,
+		ModuleTypeAntiMeteorLaser,
+		ModuleTypeMonolith
+	}
+}

@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
+using PlanetbaseSaveGameEditor.Core.Models.Enums;
 using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Attributes;
-using PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.Enums;
 
 namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.ShipModels
 {
@@ -16,10 +16,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.ShipModels
 		public ValueAttribute<Int32> Id { get; set; }
 
 		[XmlElement(ElementName = "position")]
-		public Coordinates Position { get; set; }
+		public CoordinatesCore Position { get; set; }
 
 		[XmlElement(ElementName = "orientation")]
-		public Coordinates Orientation { get; set; }
+		public CoordinatesCore Orientation { get; set; }
 
 		[XmlElement(ElementName = "state-time")]
 		public ValueAttribute<Double> StateTime { get; set; }
@@ -31,10 +31,10 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.ShipModels
 		public ValueAttribute<Int32> TargetModule { get; set; }
 
 		[XmlElement(ElementName = "original-rotation")]
-		public Coordinates OriginalRotation { get; set; }
+		public CoordinatesCore OriginalRotation { get; set; }
 
 		[XmlElement(ElementName = "final-rotation")]
-		public Coordinates FinalRotation { get; set; }
+		public CoordinatesCore FinalRotation { get; set; }
 
 		[XmlElement(ElementName = "size")]
 		public ValueAttribute<Int32> Size { get; set; }
@@ -43,7 +43,7 @@ namespace PlanetbaseSaveGameEditor.Core.Models.SaveGameModels.ShipModels
 		public BoolValueAttribute Intruders { get; set; }
 
 		[XmlElement(ElementName = "velocity")]
-		public Coordinates Velocity { get; set; }
+		public CoordinatesCore Velocity { get; set; }
 
 		[XmlElement(ElementName = "visitor-event-name")]
 		public ValueAttribute<String> Visitoreventname { get; set; }
